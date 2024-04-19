@@ -8,15 +8,15 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.22#0.10#0.30
+time: package/toolchain/compile#0.24#0.09#0.31
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
 echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/libmnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
-time: package/feeds/base/libmnl/compile#0.15#0.07#0.20
+time: package/feeds/base/libmnl/compile#0.14#0.09#0.21
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
 echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/libnftnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
-time: package/feeds/base/libnftnl/compile#0.13#0.09#0.21
+time: package/feeds/base/libnftnl/compile#0.15#0.08#0.21
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
 echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/linux.default.install
 echo "kmod-crypto-acompress" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/pkginfo/linux.default.install
@@ -63,10 +63,10 @@ WARNING: kmod-sound-hda-codec-conexant is not available in the kernel config - g
 WARNING: kmod-sound-hda-codec-via is not available in the kernel config - generating empty package
 WARNING: kmod-sound-hda-codec-hdmi is not available in the kernel config - generating empty package
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
-time: package/kernel/linux/compile#1.32#0.20#1.50
+time: package/kernel/linux/compile#1.32#0.21#1.51
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
-time: package/feeds/base/iptables/compile#0.18#0.10#0.24
+time: package/feeds/base/iptables/compile#0.16#0.11#0.25
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
 time: package/feeds/base/libpcap/compile#0.13#0.09#0.20
@@ -96,7 +96,7 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at 9a6412b70 Fix after merge
 Packing checkout...
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/.prepared_a16b0e05a6353f99a4871c1bdec3c8bf_6664517399ebbbc92a37c5bb081b5c53_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/.prepared_4eba16c7577835e57ea1b4d1d624c2a3_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; bzcat /home/runner/work/Zzz/Zzz/openwrt/dl/ndpi-netfilter-10242023-flow_info-4.tar.bz2 | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4
 
@@ -109,7 +109,7 @@ patching file ndpi-netfilter/src/Makefile
 
 Applying ./patches/0003-fix-build-murmurhash.patch using plaintext: 
 patching file src/lib/third_party/src/hll/MurmurHash3.c
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/.prepared_a16b0e05a6353f99a4871c1bdec3c8bf_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/.prepared_4eba16c7577835e57ea1b4d1d624c2a3_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-mipsel_24kc_musl/stamp/.ndpi-netfilter_installed
 (cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/./; if [ -x ./autogen.sh ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="mipsel-openwrt-linux-musl-gcc-ar" AS="mipsel-openwrt-linux-musl-gcc -c -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4=ndpi-netfilter-10242023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=mipsel-openwrt-linux-musl-ld NM="mipsel-openwrt-linux-musl-gcc-nm" CC="mipsel-openwrt-linux-musl-gcc" GCC="mipsel-openwrt-linux-musl-gcc" CXX="mipsel-openwrt-linux-musl-g++" RANLIB="mipsel-openwrt-linux-musl-gcc-ranlib" STRIP=mipsel-openwrt-linux-musl-strip OBJCOPY=mipsel-openwrt-linux-musl-objcopy OBJDUMP=mipsel-openwrt-linux-musl-objdump SIZE=mipsel-openwrt-linux-musl-size CFLAGS="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4=ndpi-netfilter-10242023-flow_info-4 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -msoft-float -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ndpi-netfilter-10242023-flow_info-4=ndpi-netfilter-10242023-flow_info-4 -mips16 -minterlink-mips16 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -mips16 -minterlink-mips16 " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-12.3.0_musl/lib -znow -zrelro "   ./autogen.sh --target=mipsel-openwrt-linux --host=mipsel-openwrt-linux --build=x86_64-pc-linux-gnu --disable-dependency-tracking --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  --with-pic ; fi; )
@@ -239,7 +239,7 @@ checking whether mipsel-openwrt-linux-musl-g++ accepts -g... yes
 checking for mipsel-openwrt-linux-musl-g++ option to enable C++11 features... none needed
 checking dependency style of mipsel-openwrt-linux-musl-g++... none
 checking for mipsel-openwrt-linux-ar... (cached) mipsel-openwrt-linux-musl-gcc-ar
-Setting API version to 46517
+Setting API version to 3762
 checking for json-c... yes
 checking for json_object_put in -ljson-c... yes
 checking whether mipsel-openwrt-linux-musl-gcc is Clang... no
@@ -539,7 +539,7 @@ Package kmod-ipt-ndpi is missing dependencies for the following libraries:
 x_tables.ko
 make[2]: *** [Makefile:99: /home/runner/work/Zzz/Zzz/openwrt/bin/targets/ramips/mt7621/packages/kmod-ipt-ndpi_5.15.153+10242023-flow_info-4-1_mipsel_24kc.ipk] Error 1
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/ndpi-netfilter'
-time: package/feeds/jell/ndpi-netfilter/compile#100.54#19.12#112.95
+time: package/feeds/jell/ndpi-netfilter/compile#105.09#19.94#116.55
     ERROR: package/feeds/jell/ndpi-netfilter failed to build.
 make[1]: *** [package/Makefile:129: package/feeds/jell/ndpi-netfilter/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'
