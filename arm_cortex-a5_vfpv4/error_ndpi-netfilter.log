@@ -8,15 +8,15 @@ echo "libc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a
 echo "libgcc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a5+vfpv4_musl_eabi/pkginfo/toolchain.default.install
 echo "libpthread" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a5+vfpv4_musl_eabi/pkginfo/toolchain.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/toolchain'
-time: package/toolchain/compile#0.27#0.14#0.36
+time: package/toolchain/compile#0.25#0.14#0.34
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
 echo "libmnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a5+vfpv4_musl_eabi/pkginfo/libmnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libmnl'
-time: package/feeds/base/libmnl/compile#0.19#0.13#0.26
+time: package/feeds/base/libmnl/compile#0.17#0.14#0.25
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
 echo "libnftnl" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a5+vfpv4_musl_eabi/pkginfo/libnftnl.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libnftnl'
-time: package/feeds/base/libnftnl/compile#0.20#0.12#0.26
+time: package/feeds/base/libnftnl/compile#0.18#0.12#0.25
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
 echo "kernel" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a5+vfpv4_musl_eabi/pkginfo/linux.default.install
 echo "kmod-crypto-acompress" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a5+vfpv4_musl_eabi/pkginfo/linux.default.install
@@ -78,13 +78,13 @@ WARNING: kmod-mmc-at91 is not available in the kernel config - generating empty 
 WARNING: kmod-pwm-atmel is not available in the kernel config - generating empty package
 echo "kmod-at91-udc" >> /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a5+vfpv4_musl_eabi/pkginfo/linux.default.install
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/package/kernel/linux'
-time: package/kernel/linux/compile#1.35#0.27#1.57
+time: package/kernel/linux/compile#1.30#0.26#1.52
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/network/utils/iptables'
-time: package/feeds/base/iptables/compile#0.21#0.14#0.29
+time: package/feeds/base/iptables/compile#0.20#0.13#0.27
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/base/package/libs/libpcap'
-time: package/feeds/base/libpcap/compile#0.18#0.13#0.26
+time: package/feeds/base/libpcap/compile#0.17#0.13#0.24
 make[2]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/ndpi-netfilter'
 mkdir -p /home/runner/work/Zzz/Zzz/openwrt/dl
 SHELL= flock /home/runner/work/Zzz/Zzz/openwrt/tmp/.ndpi-netfilter-10242023-flow_info-4.tar.bz2.flock -c '  	 /home/runner/work/Zzz/Zzz/openwrt/scripts/dl_github_archive.py --dl-dir="/home/runner/work/Zzz/Zzz/openwrt/dl" --url="https://github.com/vel21ripn/nDPI.git" --version="9a6412b70daf21034e1ae93980585a2edd79a70d" --subdir="ndpi-netfilter-10242023-flow_info-4" --source="ndpi-netfilter-10242023-flow_info-4.tar.bz2" --hash="x" || ( 	echo "Checking out files from the git repository..."; mkdir -p /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && cd /home/runner/work/Zzz/Zzz/openwrt/tmp/dl && rm -rf ndpi-netfilter-10242023-flow_info-4 && [ \! -d ndpi-netfilter-10242023-flow_info-4 ] && git clone  https://github.com/vel21ripn/nDPI.git ndpi-netfilter-10242023-flow_info-4 && (cd ndpi-netfilter-10242023-flow_info-4 && git checkout 9a6412b70daf21034e1ae93980585a2edd79a70d && git submodule update --init --recursive) && echo "Packing checkout..." && export TAR_TIMESTAMP=`cd ndpi-netfilter-10242023-flow_info-4 && git log -1 --format='\''@%ct'\''` && rm -rf ndpi-netfilter-10242023-flow_info-4/.git && 	tar --numeric-owner --owner=0 --group=0 --mode=a-s --sort=name ${TAR_TIMESTAMP:+--mtime="$TAR_TIMESTAMP"} -c ndpi-netfilter-10242023-flow_info-4 | 	bzip2 -c > /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-10242023-flow_info-4.tar.bz2 && mv /home/runner/work/Zzz/Zzz/openwrt/tmp/dl/ndpi-netfilter-10242023-flow_info-4.tar.bz2 /home/runner/work/Zzz/Zzz/openwrt/dl/ && rm -rf ndpi-netfilter-10242023-flow_info-4; );     '
@@ -111,7 +111,7 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at 9a6412b70 Fix after merge
 Packing checkout...
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.prepared_b3f87eb0d0e36d3a23599093dac1f52d_6664517399ebbbc92a37c5bb081b5c53_check
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.prepared_ddcc1b6431a7363ab83891c2a5affed8_6664517399ebbbc92a37c5bb081b5c53_check
 . /home/runner/work/Zzz/Zzz/openwrt/include/shell.sh; bzcat /home/runner/work/Zzz/Zzz/openwrt/dl/ndpi-netfilter-10242023-flow_info-4.tar.bz2 | tar -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.. -xf -
 [ ! -d ./src/ ] || cp -fpR ./src/. /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4
 
@@ -124,7 +124,7 @@ patching file ndpi-netfilter/src/Makefile
 
 Applying ./patches/0003-fix-build-murmurhash.patch using plaintext: 
 patching file src/lib/third_party/src/hll/MurmurHash3.c
-touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.prepared_b3f87eb0d0e36d3a23599093dac1f52d_6664517399ebbbc92a37c5bb081b5c53
+touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.prepared_ddcc1b6431a7363ab83891c2a5affed8_6664517399ebbbc92a37c5bb081b5c53
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.configured_*
 rm -f /home/runner/work/Zzz/Zzz/openwrt/staging_dir/target-arm_cortex-a5+vfpv4_musl_eabi/stamp/.ndpi-netfilter_installed
 (cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/./; if [ -x ./autogen.sh ]; then find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ -name config.guess | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ -name config.guess | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.guess; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ -name config.sub | xargs -r chmod u+w; find /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ -name config.sub | xargs -r -n1 cp --remove-destination /home/runner/work/Zzz/Zzz/openwrt/scripts/config.sub; AR="arm-openwrt-linux-muslgnueabi-gcc-ar" AS="arm-openwrt-linux-muslgnueabi-gcc -c -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4=ndpi-netfilter-10242023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=arm-openwrt-linux-muslgnueabi-ld NM="arm-openwrt-linux-muslgnueabi-gcc-nm" CC="arm-openwrt-linux-muslgnueabi-gcc" GCC="arm-openwrt-linux-muslgnueabi-gcc" CXX="arm-openwrt-linux-muslgnueabi-g++" RANLIB="arm-openwrt-linux-muslgnueabi-gcc-ranlib" STRIP=arm-openwrt-linux-muslgnueabi-strip OBJCOPY=arm-openwrt-linux-muslgnueabi-objcopy OBJDUMP=arm-openwrt-linux-muslgnueabi-objdump SIZE=arm-openwrt-linux-muslgnueabi-size CFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4=ndpi-netfilter-10242023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CXXFLAGS="-Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4=ndpi-netfilter-10242023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro " CPPFLAGS="-I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a5+vfpv4_gcc-12.3.0_musl_eabi/usr/include -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a5+vfpv4_gcc-12.3.0_musl_eabi/include/fortify -I/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a5+vfpv4_gcc-12.3.0_musl_eabi/include " LDFLAGS="-L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a5+vfpv4_gcc-12.3.0_musl_eabi/usr/lib -L/home/runner/work/Zzz/Zzz/openwrt/staging_dir/toolchain-arm_cortex-a5+vfpv4_gcc-12.3.0_musl_eabi/lib -znow -zrelro "   ./autogen.sh --target=arm-openwrt-linux --host=arm-openwrt-linux --build=x86_64-pc-linux-gnu --disable-dependency-tracking --program-prefix="" --program-suffix="" --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/lib --sysconfdir=/etc --datadir=/usr/share --localstatedir=/var --mandir=/usr/man --infodir=/usr/info --disable-nls  --with-pic ; fi; )
@@ -254,7 +254,7 @@ checking whether arm-openwrt-linux-muslgnueabi-g++ accepts -g... yes
 checking for arm-openwrt-linux-muslgnueabi-g++ option to enable C++11 features... none needed
 checking dependency style of arm-openwrt-linux-muslgnueabi-g++... none
 checking for arm-openwrt-linux-ar... (cached) arm-openwrt-linux-muslgnueabi-gcc-ar
-Setting API version to 3762
+Setting API version to 18380
 checking for json-c... yes
 checking for json_object_put in -ljson-c... yes
 checking whether arm-openwrt-linux-muslgnueabi-gcc is Clang... no
@@ -300,7 +300,7 @@ configure: WARNING: unrecognized options: --disable-nls
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.configured_68b329da9893e34099c7d8ad5cb9c940
 rm -f /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.built
 touch /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.built_check
-(cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/src/lib && gcc -g -O2 -fPIC -DPIC -DNDPI_LIB_COMPILATION -I../../src/include/ -I../../src/lib/third_party/include/ ndpi_network_list_compile.c -o ndpi_network_list_compile && ./ndpi_network_list_compile -o ndpi_network_list.c.inc ndpi_network_list_*.yaml && make AR="arm-openwrt-linux-muslgnueabi-gcc-ar" AS="arm-openwrt-linux-muslgnueabi-gcc -c -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4=ndpi-netfilter-10242023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=arm-openwrt-linux-muslgnueabi-ld NM="arm-openwrt-linux-muslgnueabi-gcc-nm" CC="arm-openwrt-linux-muslgnueabi-gcc" GCC="arm-openwrt-linux-muslgnueabi-gcc" CXX="arm-openwrt-linux-muslgnueabi-g++" RANLIB="arm-openwrt-linux-muslgnueabi-gcc-ranlib" STRIP=arm-openwrt-linux-muslgnueabi-strip OBJCOPY=arm-openwrt-linux-muslgnueabi-objcopy OBJDUMP=arm-openwrt-linux-muslgnueabi-objdump SIZE=arm-openwrt-linux-muslgnueabi-size CROSS="arm-openwrt-linux-muslgnueabi-" ARCH="arm" KERNEL_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/linux-5.15.153" MODULES_DIR="/lib/modules/5.15.153" ARCH="arm" KERNEL_RELEASE="5.15" CROSS_COMPILE="arm-openwrt-linux-muslgnueabi-" CC="arm-openwrt-linux-muslgnueabi-gcc"  -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter)
+(cd /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/src/lib && gcc -g -O2 -fPIC -DPIC -DNDPI_LIB_COMPILATION -I../../src/include/ -I../../src/lib/third_party/include/ ndpi_network_list_compile.c -o ndpi_network_list_compile && ./ndpi_network_list_compile -o ndpi_network_list.c.inc ndpi_network_list_*.yaml && make AR="arm-openwrt-linux-muslgnueabi-gcc-ar" AS="arm-openwrt-linux-muslgnueabi-gcc -c -Os -pipe -fno-caller-saves -fno-plt -fhonour-copts -mfloat-abi=hard -ffile-prefix-map=/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4=ndpi-netfilter-10242023-flow_info-4 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro" LD=arm-openwrt-linux-muslgnueabi-ld NM="arm-openwrt-linux-muslgnueabi-gcc-nm" CC="arm-openwrt-linux-muslgnueabi-gcc" GCC="arm-openwrt-linux-muslgnueabi-gcc" CXX="arm-openwrt-linux-muslgnueabi-g++" RANLIB="arm-openwrt-linux-muslgnueabi-gcc-ranlib" STRIP=arm-openwrt-linux-muslgnueabi-strip OBJCOPY=arm-openwrt-linux-muslgnueabi-objcopy OBJDUMP=arm-openwrt-linux-muslgnueabi-objdump SIZE=arm-openwrt-linux-muslgnueabi-size CROSS="arm-openwrt-linux-muslgnueabi-" ARCH="arm" KERNEL_DIR="/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/linux-5.15.155" MODULES_DIR="/lib/modules/5.15.155" ARCH="arm" KERNEL_RELEASE="5.15" CROSS_COMPILE="arm-openwrt-linux-muslgnueabi-" CC="arm-openwrt-linux-muslgnueabi-gcc"  -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter)
 Warning: line  233: '239.255.102.18/32' is multicast address!
 make[3]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter'
 make -C ipt
@@ -314,8 +314,8 @@ make[4]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-
 /bin/sh: 1: shell: not found
 $xt_ndpi-y is [main.o ndpi_strcol.o ndpi_proc_parsers.o ndpi_proc_generic.o ndpi_proc_info.o  ndpi_proc_flow.o ndpi_proc_hostdef.o ndpi_proc_ipdef.o ../libre/regexp.o ../../src/lib/third_party/src/ndpi_md5.o ../../src/lib/third_party/src/ndpi_sha1.o ../../src/lib/third_party/src/ahocorasick.o ../../src/lib/third_party/src/libcache.o ../../src/lib/third_party/src/ndpi_patricia.o ../../src/lib/third_party/src/gcrypt_light.o ../../src/lib/third_party/src/btlib.o ../../src/lib/third_party/src/hll/MurmurHash3.o ../../src/lib/ndpi_main.o ../../src/lib/ndpi_utils.o ../../src/lib/ndpi_serializer.o ../../src/lib/ndpi_geoip.o ../../src/lib/ndpi_hash.o ../../src/lib/protocols/*.o] -I/../../src/include -I/../../src/lib -I/../libre -I/../../src/lib/third_party/include  -DHAVE_CONFIG_H -DNDPI_LIB_COMPILATION -DOPENDPI_NETFILTER_MODULE -DNDPI_DETECTION_SUPPORT_IPV6 -g  -Wno-declaration-after-statement -Werror=frame-larger-than=4096 -femit-struct-debug-detailed=any
 \
-make  -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/linux-5.15.153 M=$PWD modules -w;
-make[5]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/linux-5.15.153'
+make  -C /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/linux-5.15.155 M=$PWD modules -w;
+make[5]: Entering directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/linux-5.15.155'
 /bin/sh: 1: shell: not found
   CC [M]  /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter/src/main.o
 In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter/src/../../src/include/ndpi_define.h:329,
@@ -327,14 +327,14 @@ In file included from /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cor
 compilation terminated.
 make[6]: *** [scripts/Makefile.build:289: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter/src/main.o] Error 1
 make[5]: *** [Makefile:1908: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter/src] Error 2
-make[5]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/linux-5.15.153'
+make[5]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/linux-5.15.155'
 make[4]: *** [Makefile:51: modules] Error 2
 make[4]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter/src'
 make[3]: *** [Makefile:3: all] Error 2
 make[3]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/ndpi-netfilter'
 make[2]: *** [Makefile:91: /home/runner/work/Zzz/Zzz/openwrt/build_dir/target-arm_cortex-a5+vfpv4_musl_eabi/linux-at91_sama5/ndpi-netfilter-10242023-flow_info-4/.built] Error 2
 make[2]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt/feeds/jell/ndpi-netfilter'
-time: package/feeds/jell/ndpi-netfilter/compile#40.59#7.27#42.20
+time: package/feeds/jell/ndpi-netfilter/compile#39.30#7.23#39.97
     ERROR: package/feeds/jell/ndpi-netfilter failed to build.
 make[1]: *** [package/Makefile:129: package/feeds/jell/ndpi-netfilter/compile] Error 1
 make[1]: Leaving directory '/home/runner/work/Zzz/Zzz/openwrt'

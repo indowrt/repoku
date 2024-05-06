@@ -4,13 +4,13 @@ Depends: libc, comgt
 Source: feeds/jell/3ginfo
 SourceName: 3ginfo-lite
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: all
-Installed-Size: 15816
+Installed-Size: 15819
 Filename: 3ginfo-lite_20190418_all.ipk
-Size: 16555
-SHA256sum: c3afac3be3455480babb1457d001b96a462de136352bde8770c3e6b27d64c0a5
+Size: 16560
+SHA256sum: 339ed1cddd1c5dc167e3e623f0b3d4892b807a8886ff917e2c5bb29b4f70fa34
 Description:  Information about status of 3G/4G modem (lite version)
 
 Package: 3ginfo-qmisignal
@@ -19,13 +19,13 @@ Depends: libc, uqmi
 Source: feeds/jell/3ginfo
 SourceName: 3ginfo-qmisignal
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: all
-Installed-Size: 2253
+Installed-Size: 2255
 Filename: 3ginfo-qmisignal_20190418_all.ipk
-Size: 3012
-SHA256sum: 86725ea804fff6992b1b1aa0b197a4c100ffbf4ea83182ba50ce83b3f1ebd103
+Size: 3020
+SHA256sum: a4e5218b5ced02689adac1e06556aeed6039df56137a2eeeff3503d86cca2ae4
 Description:  Information about status of 3G/4G modem (qmi signal)
 
 Package: 3ginfo-text
@@ -34,13 +34,13 @@ Depends: libc, comgt
 Source: feeds/jell/3ginfo
 SourceName: 3ginfo-text
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: all
-Installed-Size: 23020
+Installed-Size: 23018
 Filename: 3ginfo-text_20190418_all.ipk
-Size: 23874
-SHA256sum: 4522e081ed92ffe852091b44a45fb5e8a81e241206cdcf40ecc553818eb66ff4
+Size: 23865
+SHA256sum: a65dbcd33734e432373321ec290a260d8af7b8b607f17430c48eecf0f7f4d91f
 Description:  Information about status of 3G/4G modem (text version)
 
 Package: 3ginfo
@@ -49,13 +49,13 @@ Depends: libc, 3ginfo-text
 Source: feeds/jell/3ginfo
 SourceName: 3ginfo
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: all
 Installed-Size: 11265
 Filename: 3ginfo_20190418_all.ipk
-Size: 12002
-SHA256sum: bff8771270606e18093a3d8b52422adfbfdbcda39801b205f2bea576adc3047c
+Size: 12009
+SHA256sum: 8d24a7ba3db4182d455c77d1ff5ff075c81eec1a2def782356a905769222c90c
 Description:  Information about status of 3G/4G modem
 
 Package: 3proxy-common
@@ -66,13 +66,13 @@ SourceName: 3proxy-common
 License: GPLv2
 LicenseFiles: LICENSE
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: muziling <lls924@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 118510
+Installed-Size: 118525
 Filename: 3proxy-common_0.9.4_i386_pentium4.ipk
-Size: 119001
-SHA256sum: 939877bfef0f0d0885a204e05f4f1d9213e9a45db76ef9c95209b8fa62ac85c1
+Size: 118994
+SHA256sum: f2b159b0b9498cdf3230f9fa2d049ed7792ddb0599d98397ddf0902a8d64f252
 Description:  3proxy addional servers
 
 Package: 3proxy-sql
@@ -83,13 +83,13 @@ SourceName: 3proxy-sql
 License: GPLv2
 LicenseFiles: LICENSE
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: muziling <lls924@gmail.com>
 Architecture: all
-Installed-Size: 14011
+Installed-Size: 14012
 Filename: 3proxy-sql_0.9.4_all.ipk
-Size: 14620
-SHA256sum: 7e613c20528bb29b4614b7cb4115b28698de0719abbe4f95f2468f2d0152fe0c
+Size: 14623
+SHA256sum: f54850132cac2cb47c484dcba4ad1d57d0d40861b6dc823b4cc1c2b4d93ae1f9
 Description:  3proxy sql template
 
 Package: 3proxy
@@ -100,13 +100,13 @@ SourceName: 3proxy
 License: GPLv2
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: muziling <lls924@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 109942
+Installed-Size: 109953
 Filename: 3proxy_0.9.4_i386_pentium4.ipk
-Size: 110695
-SHA256sum: dacfc321cf5abb481e15de811a1d2be05493825f75082b36ba3f38d8d433cdb3
+Size: 110682
+SHA256sum: 17cf62fc916a41a38953a55936cfdc2b0b175da21a7319085e908438ad60912c
 Description:  3APA3A 3proxy tiny proxy servers
 
 Package: accel-ppp
@@ -116,13 +116,13 @@ Source: feeds/jell/accel-ppp
 SourceName: accel-ppp
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Alex Paraskeva <sim201010@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 304575
+Installed-Size: 304610
 Filename: accel-ppp_1.11.2-1_i386_pentium4.ipk
-Size: 304858
-SHA256sum: 509e055671783f29fe0775342b2115134ce25fc98a806d03eec5de1b8e2ea4ad
+Size: 304903
+SHA256sum: 7c0cc6c05619f2ce6c3d510bb4acb1f6baa9e4d9644a29813a0bedebc8fabb1f
 Description:  accel-ppp VPN server
 
 Package: atinout
@@ -133,13 +133,13 @@ SourceName: atinout
 License: GPLv2
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Adrian Guenter <a@gntr.me>
 Architecture: i386_pentium4
-Installed-Size: 2991
+Installed-Size: 2994
 Filename: atinout_0.9.1_i386_pentium4.ipk
-Size: 3776
-SHA256sum: 0eb528de2294aa3026467f8de325b9037201857423e0a666b9c5857566b66df2
+Size: 3787
+SHA256sum: 4485367d618d4263bc9da3539455b75a87121c6cda8322b15040b2444378e4e2
 Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
@@ -149,13 +149,13 @@ Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, co
 Source: feeds/jell/badvpn
 SourceName: badvpn
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: helmiau
 Architecture: i386_pentium4
 Installed-Size: 118634
 Filename: badvpn_1.999.130-1_i386_pentium4.ipk
-Size: 119422
-SHA256sum: 7a23e1fb45594d33f515dd21b67e627b519b43638f906240a92aa1ee21d6ca45
+Size: 119433
+SHA256sum: b9e312eccef521a6f4da3ed3a43b12b24bf9ffe9a849c36de9d1abdb1c2b8c27
 Description:  BadVPN
 
 Package: brook
@@ -166,13 +166,13 @@ SourceName: brook
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 7457346
+Installed-Size: 7457353
 Filename: brook_20240404-1_i386_pentium4.ipk
-Size: 7369726
-SHA256sum: 23713d320697df81c8414027ea36593abc3324daa3c5132bd516c5ed6a567937
+Size: 7369732
+SHA256sum: 47655abd509f23299ecc916286e0b3a5320cf5e656b0e8f611556b1a260c3746
 Description:  Brook is a cross-platform strong encryption and not detectable proxy.
  Zero-Configuration.
 
@@ -182,30 +182,30 @@ Depends: libc
 Source: feeds/jell/cellled
 SourceName: cellled
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1871
+Installed-Size: 1870
 Filename: cellled_0.0.1-1_all.ipk
-Size: 2586
-SHA256sum: 768a6a48d1ad3adbe5c1f19a6d9dcd33f4c90787a87551eae6b514b9acc50e44
+Size: 2584
+SHA256sum: d1e40c926aeade167a40c1666ab0965051ad410600a6092fa2ee56fc605ad9b4
 Description:  Indicate LED cellular signal signal strength.
 
 Package: chinadns-ng
-Version: 2024.04.13-1
+Version: 2024.04.30-1
 Depends: libc, ipset
 Source: feeds/jell/chinadns-ng
 SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: i386_pentium4
-Installed-Size: 85476
-Filename: chinadns-ng_2024.04.13-1_i386_pentium4.ipk
-Size: 86306
-SHA256sum: 8ed5acdeafbcf4252be8d4c44e3306e909c3d930af3589c05210b345db76547c
+Installed-Size: 88061
+Filename: chinadns-ng_2024.04.30-1_i386_pentium4.ipk
+Size: 88893
+SHA256sum: 1c5fe255da50c58ae5131d2c184eba3d69211186e8e5a9f226faecca3915b483
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: corkscrew
@@ -214,13 +214,13 @@ Depends: libc
 Source: feeds/jell/corkscrew
 SourceName: corkscrew
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 3016
+Installed-Size: 3019
 Filename: corkscrew_2.0-1_i386_pentium4.ipk
 Size: 3761
-SHA256sum: f3bedb3bca37928338d9b2686826938923e8316829efad765c63b4cac56d94a2
+SHA256sum: 53dfa6b35ce391f13e86cd2ee3a8bd52c07445f915971affa64f6ad0d6b9b00a
 Description:  Tunneling SSH through HTTP proxies.
 
 Package: dns2socks
@@ -230,13 +230,13 @@ Source: feeds/jell/dns2socks
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: ghostmaker
 Architecture: i386_pentium4
-Installed-Size: 9510
+Installed-Size: 9511
 Filename: dns2socks_2.1-2_i386_pentium4.ipk
-Size: 10302
-SHA256sum: bf364b66ed6dac406f9b66b4a463f2970ca554f82cc1e773857de3545feab09b
+Size: 10317
+SHA256sum: 71a34bb1069cf9d4b278dbfe5ad220631446de8b87b40732fb545b50afff5e6f
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -248,13 +248,13 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 10445
+Installed-Size: 10446
 Filename: dns2tcp_1.1.0-2_i386_pentium4.ipk
-Size: 11237
-SHA256sum: 81b98d261b4aa5d5a15501881209e73f5d62dd2d1a44765268213dbad44c4d89
+Size: 11246
+SHA256sum: d4bbd6710febfd3c727795648ef379de559638dbfc41217845f50bfb814357fb
 Description:  utility to convert dns query from udp to tcp
 
 Package: ethstatus
@@ -265,13 +265,13 @@ SourceName: ethstatus
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Paul Spooren <mail@aparcar.org>
 Architecture: i386_pentium4
-Installed-Size: 7130
+Installed-Size: 7131
 Filename: ethstatus_0.4.9-1_i386_pentium4.ipk
 Size: 8025
-SHA256sum: f976e9e70c1c18f8e9fee2c2ced1a434694b43361d167e7d8fc05bae6501da59
+SHA256sum: a1a993939e188c00c6bed365bfd39ec6fbc22e5dbba9368a2593c32eab92b97f
 Description:  Ethstatus is a console-based monitoring utility for
  displaying statistical data of the ethernet interface
  on a quantity basis. It is similar to iptraf but is meant
@@ -279,17 +279,17 @@ Description:  Ethstatus is a console-based monitoring utility for
  load.
 
 Package: fm350-modem
-Version: 0.0.1-3
-Depends: libc, comgt, kmod-usb-acm, kmod-usb-net-rndis
+Version: 0.0.1-5
+Depends: libc, comgt, kmod-usb-acm, kmod-usb-serial-option, kmod-usb-net-rndis
 Source: feeds/jell/fm350-modem
 SourceName: fm350-modem
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: all
-Installed-Size: 2446
-Filename: fm350-modem_0.0.1-3_all.ipk
-Size: 3175
-SHA256sum: bba7761484b492772eb7dddbaaaf006f21eaf46b7d693f100a0882cbdfc082c7
+Installed-Size: 2461
+Filename: fm350-modem_0.0.1-5_all.ipk
+Size: 3192
+SHA256sum: 367d61dd0031745946507181178e34c536b930da6595dc195ff8696fd904f336
 Description:  Simple connect to cellular for Fibocom FM350 module
 
 Package: hl-atcmd
@@ -300,29 +300,29 @@ SourceName: hl-atcmd
 License: GPLv2
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Nhon Chu <nhon.chu@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 3067
+Installed-Size: 3073
 Filename: hl-atcmd_1_i386_pentium4.ipk
-Size: 3822
-SHA256sum: f0e58c9d2609364249bc5d173372fce14c2b54d4be52a99d465c86c9d183c0f7
+Size: 3838
+SHA256sum: 0b880fe1c15d676fe3a3f27da9231d504df9ed3a2a0825db5f0b509371a136cf
 Description:  This simple command line tool for sending AT command to a serial device.
 
 Package: hysteria
-Version: 2.4.1-1
+Version: 2.4.3-1
 Depends: libc, ca-bundle
 Source: feeds/jell/hysteria
 SourceName: hysteria
 License: MIT
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 5878817
-Filename: hysteria_2.4.1-1_i386_pentium4.ipk
-Size: 5867895
-SHA256sum: e5220c4596c8d260db79d3db0ff3d038d31ecbfa8c840c5e4e6a3c24e51b0fdb
+Installed-Size: 5930619
+Filename: hysteria_2.4.3-1_i386_pentium4.ipk
+Size: 5919638
+SHA256sum: 65afa086ebcc2ec6eb52bf909e8b47d6c43de44c296c61596cb0a5a77a2fd932
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -334,13 +334,13 @@ Depends: libc
 Source: feeds/jell/imei_generator
 SourceName: imei_generator
 Section: utils
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Egor Grushko
 Architecture: i386_pentium4
-Installed-Size: 1790
+Installed-Size: 1803
 Filename: imei_generator_1_i386_pentium4.ipk
-Size: 2486
-SHA256sum: 325494edc626cf1ee8940f020d5feca52ad8ba43c9f5cb020bdc4148ae8303b3
+Size: 2496
+SHA256sum: 40a14be1fb49c9d0c2890e1dba36f34c21859c71d8bf0ad3d90c6d3b404717cf
 Description:  This package contains generate custom IMEI 
 
 Package: internet-detector-mod-email
@@ -349,13 +349,13 @@ Depends: libc, internet-detector, mailsend
 Source: feeds/jell/internet-detector-mod-email
 SourceName: internet-detector-mod-email
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
-Installed-Size: 1781
+Installed-Size: 1782
 Filename: internet-detector-mod-email_1.3-0_all.ipk
-Size: 2531
-SHA256sum: 78c859b01ad86e4cf0e9d8099935bfbefce7933e21693bd4e36cad210f540087
+Size: 2534
+SHA256sum: 48900cd20182708393f1048a9d155ee0449f63e88cd363f9e08aa998ddcd4a10
 Description:  Email support for internet-detector.
 
 Package: internet-detector-mod-modem-restart
@@ -364,13 +364,13 @@ Depends: libc, internet-detector, modemmanager
 Source: feeds/jell/internet-detector-mod-modem-restart
 SourceName: internet-detector-mod-modem-restart
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
-Installed-Size: 1059
+Installed-Size: 1060
 Filename: internet-detector-mod-modem-restart_1.3-0_all.ipk
-Size: 1809
-SHA256sum: 437d2d0c010f598987a3fa5a27970f6f027f3c714b3475cb9b250d4b1f6a8269
+Size: 1810
+SHA256sum: fab37c5ef467b229a2fc88ed0be6cebf79348e2af3ba6b5d6ebd765a2afc0635
 Description:  Support modem restart for internet detector.
 
 Package: internet-detector
@@ -379,13 +379,13 @@ Depends: libc, lua, luaposix, libuci-lua
 Source: feeds/jell/internet-detector
 SourceName: internet-detector
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
-Installed-Size: 10085
+Installed-Size: 10087
 Filename: internet-detector_1.3-0_all.ipk
-Size: 10953
-SHA256sum: e7829e1428ef419ab88160cb252d8dbdff5156c6a5e6577f219edf2939028f26
+Size: 10955
+SHA256sum: fd882f3e7f3e6d84902157010b5e21d9fa0a59bc479df6c2e8d0c92d5781f2d3
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -397,12 +397,12 @@ Source: feeds/jell/ipt2socks
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 23906
+Installed-Size: 23911
 Filename: ipt2socks_1.1.3-3_i386_pentium4.ipk
-Size: 24639
-SHA256sum: c751d3598ba6aea3892e8deb667e8360d7438ec85cf6d0d7724e3b332112b876
+Size: 24644
+SHA256sum: f0d4566c5244b39967c4c0870f1b26440d3665c86797cca5e2e5a2e7f5b34d59
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: iptables-mod-wgobfs
@@ -413,13 +413,13 @@ SourceName: iptables-mod-wgobfs
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Wei Chen <weichen302@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 853
+Installed-Size: 854
 Filename: iptables-mod-wgobfs_0.4.1-1_i386_pentium4.ipk
-Size: 1618
-SHA256sum: a5e2ace467cdd8e792bbbba68794147f292d5e9b1d4a687e3afb472736eadce4
+Size: 1620
+SHA256sum: 78dfe91f4e47b0a21cb54ba1f464cd170ee6c5547b2db44f096145ce1395a5be
 Description:  WireGuard obfuscation iptables extension
 
 Package: lib3proxy
@@ -430,13 +430,13 @@ SourceName: lib3proxy
 License: GPLv2
 LicenseFiles: LICENSE
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: muziling <lls924@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 62693
+Installed-Size: 62698
 Filename: lib3proxy_0.9.4_i386_pentium4.ipk
-Size: 63379
-SHA256sum: 14c7aa4293c1b09a89ae70cde618df9afda29d2ef31f8944f23b77a93ac0d17d
+Size: 63410
+SHA256sum: 6643f4edb508487153a365c7ad3cb32ca41d9f4a31237822eba7b26e57c0b34b
 Description:  3proxy libraries
 
 Package: lua-maxminddb
@@ -446,13 +446,13 @@ Source: feeds/jell/lua-maxminddb
 SourceName: lua-maxminddb
 License: MIT
 Section: lang
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: fabled
 Architecture: i386_pentium4
-Installed-Size: 2536
+Installed-Size: 2539
 Filename: lua-maxminddb_0.2-1_i386_pentium4.ipk
-Size: 3244
-SHA256sum: ad6217e91dacc414cce5625738ca5de750505eaecd5e4033863286e60bb7683a
+Size: 3250
+SHA256sum: 1c49d6fbfc0ac8bc08551bd2e986045e683ae8e04b0eb0a84e97b557a7e732a0
 Description:  libmaxminddb bindings for lua
 
 Package: lua-neturl
@@ -462,29 +462,29 @@ Source: feeds/jell/lua-neturl
 SourceName: lua-neturl
 License: MIT
 Section: lang
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 4531
+Installed-Size: 4533
 Filename: lua-neturl_1.1-1-3_all.ipk
-Size: 5310
-SHA256sum: 93d361dba92c4ba627d341cd1900ca879a72f7929a65e847914e434c7632780a
+Size: 5311
+SHA256sum: 3a06ef9aa5efbb099cbeaf9ce7c071b2434dbbb6a72d1f87ff3ca7a88add1980
 Description:  This small Lua library provides a few functions to parse URL with
  querystring and build new URL easily.
 
 Package: luci-app-3ginfo-lite
-Version: 1.0.65-20240330
+Version: 1.0.69-20240427
 Depends: libc, sms-tool, comgt, kmod-usb-serial-option
 Source: feeds/jell/luci-app-3ginfo-lite/luci-app-3ginfo-lite
 SourceName: luci-app-3ginfo-lite
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 103733
-Filename: luci-app-3ginfo-lite_1.0.65-20240330_all.ipk
-Size: 104461
-SHA256sum: bebe30feb47b170384d865f1bf49e962b3ba79bbf1a686349c9127c245200b9b
+Installed-Size: 107074
+Filename: luci-app-3ginfo-lite_1.0.69-20240427_all.ipk
+Size: 107769
+SHA256sum: 26d96915c2f8d8536f66ba6be24ed89b8e39103d0160ac9ebd5693cd20a9ceba
 Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
 
 Package: luci-app-3ginfo
@@ -493,13 +493,13 @@ Depends: libc, 3ginfo-text, luci-compat, luci-lua-runtime
 Source: feeds/jell/luci-app-3ginfo
 SourceName: luci-app-3ginfo
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 62950
 Filename: luci-app-3ginfo_1.3.3_all.ipk
-Size: 63824
-SHA256sum: c9b6ab99162c92908390225068e4532832becf1327b6e17dd3668870f85df444
+Size: 63823
+SHA256sum: f92391d0dd4a4dd073fcbfb261856cc471c0449a8eea5c3c492a3ec853450158
 Description:  LuCI panel for 3ginfo
 
 Package: luci-app-3proxy
@@ -509,13 +509,13 @@ Source: feeds/jell/luci-app-3proxy
 SourceName: luci-app-3proxy
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1251
+Installed-Size: 1253
 Filename: luci-app-3proxy_0.1.0_all.ipk
-Size: 2067
-SHA256sum: 140f39ab92f90ef2e5e3ca7f95706a54f4cabea2a9d8b520042770712f6d56b7
+Size: 2074
+SHA256sum: bbd30ac0e2a2086fb90cef2502ac1634d99c84b29354403d44b2c693d839b477
 Description:  3proxy simple webUI
 
 Package: luci-app-argon-config
@@ -524,13 +524,13 @@ Depends: libc, luci-theme-argon
 Source: feeds/jell/luci-app-argon-config
 SourceName: luci-app-argon-config
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4466
+Installed-Size: 4469
 Filename: luci-app-argon-config_1.0_all.ipk
-Size: 5311
-SHA256sum: 0a1abcbface6bde3b5aa3090fd6b7cddf847d568f1695c949cd79867208e6d87
+Size: 5321
+SHA256sum: b0b7e410265d43b1bfb08258623a96f7bb0a742defa4889dadc14ad4a9ca5e47
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-atinout-mod
@@ -539,13 +539,13 @@ Depends: libc, atinout, luci-compat, luci-lua-runtime
 Source: feeds/jell/luci-app-atinout-mod/luci-app-atinout-mod
 SourceName: luci-app-atinout-mod
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4268
+Installed-Size: 4267
 Filename: luci-app-atinout-mod_1.3.3-20220817_all.ipk
-Size: 5138
-SHA256sum: 47840903c8b3f8d3271387ceb29ec5842b1bbf37ba19d45b895f9f2c76c89c61
+Size: 5130
+SHA256sum: eb217797a37c28ab71c1f7df0a352c3b2c6a758501b602d75051f770c904bc83
 Description:  Web UI for atinout
 
 Package: luci-app-atinout
@@ -554,28 +554,28 @@ Depends: libc, atinout
 Source: feeds/jell/luci-app-atinout
 SourceName: luci-app-atinout
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3698
+Installed-Size: 3701
 Filename: luci-app-atinout_0.1.0-1_all.ipk
-Size: 4513
-SHA256sum: 4570bd3b5735db6f5524754a9e04443a88d245d3e8563efeca6809b5e7d262a1
+Size: 4511
+SHA256sum: 3a4f4685b31e09393f25bf3d4c9223375156f0041aef3aa3a413c924e5491b1e
 Description:  LuCI JS interface for the atinout.
 
 Package: luci-app-bypass
-Version: git-25.109.45047-dacf1ea
+Version: git-25.126.04521-3bd0fcd
 Depends: libc, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua-neturl, dnsmasq-full, smartdns, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, luci-lib-ipkg, unzip, lua-maxminddb, shadowsocks-libev-ss-server, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, xray-core, trojan-plus, microsocks, luci-lua-runtime
 Source: feeds/jell/luci-app-bypass
 SourceName: luci-app-bypass
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2654649
-Filename: luci-app-bypass_git-25.109.45047-dacf1ea_all.ipk
-Size: 2473285
-SHA256sum: 705cdf0377c84dc0235cd2ff791d46c585a897f3b612a5b70cae3e65f3494c5a
+Installed-Size: 2654667
+Filename: luci-app-bypass_git-25.126.04521-3bd0fcd_all.ipk
+Size: 2473388
+SHA256sum: a6c5524c071283851112b43dec4c648cd70e0954c0451e968db84a45a0a14372
 Description:  SS/SSR/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
 
 Package: luci-app-cellled
@@ -584,13 +584,13 @@ Depends: libc, cellled
 Source: feeds/jell/luci-app-cellled
 SourceName: luci-app-cellled
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2500
+Installed-Size: 2503
 Filename: luci-app-cellled_0.1.0-2_all.ipk
-Size: 3300
-SHA256sum: 3dfe15be14dbf359d71fddd836a31552dacf1adeb89eabb1fe818c4c653bc1c9
+Size: 3308
+SHA256sum: ae435113bc1b262171992a598fc0f5ca1814b33284a65c5b0fc37d2014e4188b
 Description:  LuCI application for showing cellular RSSI LED
 
 Package: luci-app-gpoint
@@ -600,13 +600,13 @@ Source: feeds/jell/luci-app-gpoint
 SourceName: luci-app-gpoint
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 48245
+Installed-Size: 48248
 Filename: luci-app-gpoint_2.6.0_all.ipk
-Size: 49276
-SHA256sum: 17b61b6e56a78b582b78305880acd7351cb54afdb459197e5f91bd8efb9d2dcf
+Size: 49282
+SHA256sum: 5b00c94d031fbd9a05ac44736e2dada93dfe19f8de8667e0fde8cada69fd942c
 Description:  GNSS Information dashboard for 3G/LTE dongle
 
 Package: luci-app-internet-detector
@@ -615,13 +615,13 @@ Depends: libc, internet-detector
 Source: feeds/jell/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8574
+Installed-Size: 8575
 Filename: luci-app-internet-detector_1.3-0_all.ipk
-Size: 9390
-SHA256sum: 276653fd298776465520fe7b9839e07e546fcce78de309ecdbdc95a3aad5df5c
+Size: 9395
+SHA256sum: 8f016f2a2e87db40a17ae23042ac1fa0ce329fbf083c7c09e2672770e2bc3f43
 Description:  LuCI support for internet-detector
 
 Package: luci-app-libernet
@@ -630,13 +630,13 @@ Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-clien
 Source: feeds/jell/luci-app-libernet
 SourceName: luci-app-libernet
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 667
+Installed-Size: 668
 Filename: luci-app-libernet_1.7_all.ipk
-Size: 2109
-SHA256sum: 4a8dee7cbe319bfd0663ce8d14a9d9b54ed7aa2d896477b56ad552f00a421809
+Size: 2107
+SHA256sum: e30f2ee286711ab046a046ff00b4f6915db6a547851381103aa9652ca350fd43
 Description:  LuCI version of Libernet App, this is original version without libernet binary.
 
 Package: luci-app-lite-watchdog
@@ -645,13 +645,13 @@ Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
 Source: feeds/jell/luci-app-lite-watchdog
 SourceName: luci-app-lite-watchdog
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8565
+Installed-Size: 8567
 Filename: luci-app-lite-watchdog_1.0.15-20240102_all.ipk
-Size: 9464
-SHA256sum: ea77a55c0159a6382d2045e469431b448bb2909ee37cc107f5c01b800cf22b43
+Size: 9465
+SHA256sum: a5cd057fdb012b62d4579fb887f43d478136977ecda7231f481617328277d6a2
 Description:  LuCI JS interface for the lite-watchdog scripts.
 
 Package: luci-app-mmconfig
@@ -661,13 +661,13 @@ Source: feeds/jell/luci-app-mmconfig
 SourceName: luci-app-mmconfig
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 2718
 Filename: luci-app-mmconfig_0.1.0-1_all.ipk
-Size: 3601
-SHA256sum: 4bfe046b5f7f49ce76564428304d1dff49c13209c371640d4967e6c063dd7709
+Size: 3595
+SHA256sum: adb3cfe934b20a49f3fb42b68a9eae65b2b1eb455195b50302847c0c32f33465
 Description:  Configrure modem bands via mmcli utility
 
 Package: luci-app-modemband
@@ -676,13 +676,13 @@ Depends: libc, sms-tool, modemband
 Source: feeds/jell/luci-app-modemband
 SourceName: luci-app-modemband
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 8987
+Installed-Size: 8994
 Filename: luci-app-modemband_1.0.25-20240330_all.ipk
-Size: 9910
-SHA256sum: 59aaa184ffb1168750bfc25a29442df60597b964c12d38a88ea410de46a13fda
+Size: 9924
+SHA256sum: 68b4c06ad5566cd3b5ae29963052660cfcf6965b9bfb0f3ef5b10c07cfdd4376
 Description:  LuCI JS interface for the modemband. The package allows set LTE/5G bands for selected 4G/5G modems.
 
 Package: luci-app-modeminfo
@@ -692,13 +692,13 @@ Source: feeds/jell/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6820
+Installed-Size: 6819
 Filename: luci-app-modeminfo_0.4.0-5_all.ipk
-Size: 7684
-SHA256sum: be5e8d02eabfe125997000ef6eced18fe35a4be19393920883996cb4f7b502a3
+Size: 7686
+SHA256sum: bcf25bbf5e10307f9917731b08f93f18ab775015378f9e36f31e65a305335b53
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-mosdns
@@ -707,13 +707,13 @@ Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite
 Source: feeds/jell/luci-app-mosdns
 SourceName: luci-app-mosdns
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 79293
+Installed-Size: 79301
 Filename: luci-app-mosdns_1.5.20_all.ipk
-Size: 80338
-SHA256sum: 7310332c8dba84d5af94743f3380ae6453dca956662eddec4fd1c805986a0767
+Size: 80347
+SHA256sum: 68e80aa82213d1c1e4120f84c865d7d0d72657afe6a63df283acf7cbaa4dde5d
 Description:  LuCI Support for mosdns
 
 Package: luci-app-neko
@@ -722,13 +722,13 @@ Depends: libc, kmod-tun, bash, curl, jq
 Source: feeds/jell/luci-app-neko
 SourceName: luci-app-neko
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: nosignal <https://github.com/nosignals/neko>
 Architecture: all
-Installed-Size: 3874182
+Installed-Size: 3873666
 Filename: luci-app-neko_1.1.13-beta_all.ipk
-Size: 3849625
-SHA256sum: 694ccdc179c3bb4def2a1d3a6b3b33ca129e57fa6a8c1d0bb6704af2c5cbd549
+Size: 3849389
+SHA256sum: 68416febfe5686c2832beafd2ce1651401b72d3992dc21560afab33dd25d34eb
 Description:  A LuCI support for mihomo
 
 Package: luci-app-openclash
@@ -737,43 +737,43 @@ Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-bundle, 
 Source: feeds/jell/luci-app-openclash
 SourceName: luci-app-openclash
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: vernesong
 Architecture: all
-Installed-Size: 5653302
+Installed-Size: 5653225
 Filename: luci-app-openclash_0.46.003-beta_all.ipk
-Size: 5630415
-SHA256sum: 34228d160d9140cde7fafa203ba823b1401ef8e69b48a98c3dacb952e09bf7db
+Size: 5630534
+SHA256sum: 0cf881c1697a72e532498369a4404517aafd9e09994ad8f3fdf45d898fbba0c8
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
-Version: 1.28-7
+Version: 1.29-1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
 Source: feeds/jell/luci-app-passwall2
 SourceName: luci-app-passwall2
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 238992
-Filename: luci-app-passwall2_1.28-7_all.ipk
-Size: 240008
-SHA256sum: e26012147c4f1ddb9892363cf10f501efaa073d6fe8dda3f42b329eca7d9acec
+Installed-Size: 239298
+Filename: luci-app-passwall2_1.29-1_all.ipk
+Size: 240350
+SHA256sum: fcc4d2c0dea3b620685b955d7f1875687e602b9def242ba2a061ceafb005100f
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
-Version: 4.77-1
+Version: 4.77-5
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
 Source: feeds/jell/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 722253
-Filename: luci-app-passwall_4.77-1_all.ipk
-Size: 722842
-SHA256sum: 69c55dee5d762afeb3d4de70e236878dc9b4a695612cb64f7c07c1760a091fed
+Installed-Size: 726242
+Filename: luci-app-passwall_4.77-5_all.ipk
+Size: 727014
+SHA256sum: 3ce40040f2045e9662ce022c6d498784d4d8282eb9b1cf8facd441cc4685ece0
 Description:  LuCI support for PassWall
 
 Package: luci-app-pingcontrol
@@ -782,30 +782,14 @@ Depends: libc, pingcontrol
 Source: feeds/jell/luci-app-pingcontrol
 SourceName: luci-app-pingcontrol
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1631
+Installed-Size: 1633
 Filename: luci-app-pingcontrol_1_all.ipk
-Size: 2450
-SHA256sum: 761aad368cb82d148452bc31b5c7365fe35bd31d089edbf467fb0f1fe8bd6ce3
+Size: 2456
+SHA256sum: 7acd655e3640ccee00d01646ae83395e965559b62eb67a61b3ce70224e62ce36
 Description:  LuCI network interface control
-
-Package: luci-app-rakitiw
-Version: 1.2.6
-Depends: libc, modemmanager, python3-pip, jq, adb, luci-lua-runtime
-Source: feeds/jell/luci-app-rakitiw
-SourceName: luci-app-rakitiw
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1713529847
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 2093207
-Filename: luci-app-rakitiw_1.2.6_all.ipk
-Size: 2090752
-SHA256sum: 27eaa9f1a0312e12c75dcc07a701ab14a406487260ba5317622a3d844fe9badb
-Description:  LuCI version of Rakitiw, with some mods and additions for modem rakitan.
 
 Package: luci-app-rtorrent
 Version: 0.1.7
@@ -814,13 +798,13 @@ Source: feeds/jell/luci-app-rtorrent
 SourceName: luci-app-rtorrent
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 40198
+Installed-Size: 40207
 Filename: luci-app-rtorrent_0.1.7_all.ipk
-Size: 41157
-SHA256sum: 24e65032b6540ab5ad1c597d0437ba8516b8dee240aec06741100606f54a81db
+Size: 41165
+SHA256sum: b9b26885f526edcb2c7c5371bc6969d8c639d66e832184a4d1fd93807057ac90
 Description:  rTorrent LuCI web interface
 
 Package: luci-app-sms-tool
@@ -829,13 +813,13 @@ Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt, luci-lu
 Source: feeds/jell/luci-app-sms-tool
 SourceName: luci-app-sms-tool
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 22685
+Installed-Size: 22686
 Filename: luci-app-sms-tool_1.9.6-20230501_all.ipk
-Size: 23670
-SHA256sum: 4470f592878afe5abda6c3fc1b6eb3a3d206560fb5a71f8d8d5e1971ea2645ff
+Size: 23677
+SHA256sum: 8e92330450536f4d15b6b162d4b1fbbf96c48f026a1b133ed62d1b4adfa5b692
 Description:  LuCI interface for the sms-tool. The user interface supports SMS/USSD Codes/AT Commands.
 
 Package: luci-app-smstools3
@@ -845,13 +829,13 @@ Source: feeds/jell/luci-app-smstools3
 SourceName: luci-app-smstools3
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9847
+Installed-Size: 9849
 Filename: luci-app-smstools3_0.1.0-2_all.ipk
-Size: 10712
-SHA256sum: 998d4903b8f930ae10e45d60856ed6fa6b44b242f033093b153fca7004051260
+Size: 10723
+SHA256sum: dec0c742725e9126b3d5f91738f5fe374c2153ee804cdac9256478327077a7de
 Description:  Web UI for smstools3
 
 Package: luci-app-ssr-plus
@@ -860,13 +844,13 @@ Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ip
 Source: feeds/jell/luci-app-ssr-plus
 SourceName: luci-app-ssr-plus
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 285702
+Installed-Size: 285806
 Filename: luci-app-ssr-plus_188_all.ipk
-Size: 285965
-SHA256sum: 571969900cfceaf45d5b49751368702954fd9f0046c433e85758da18261ac028
+Size: 286119
+SHA256sum: 35c7b1f9aa4f24cc2e8e9089ebf0b19aa04e2b50a415bc491aaef42e811c2111
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Tun LuCI interface
 
 Package: luci-app-tailscale
@@ -875,13 +859,13 @@ Depends: libc, tailscale, jsonfilter, ucode
 Source: feeds/jell/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 7103
+Installed-Size: 7106
 Filename: luci-app-tailscale_1.0.5_all.ipk
 Size: 7998
-SHA256sum: 398c8c9da51f66caa0dad1761ac6716e4f0a5a4f736e8d17491c4f986142bdf8
+SHA256sum: cd5a69339cb405fe3394c509fed6ed5a5dad1fcc2dffa1c828e194e910a45430
 Description:  LuCI for Tailscale
 
 Package: luci-app-telegrambot
@@ -891,13 +875,13 @@ Source: feeds/jell/luci-app-telegrambot
 SourceName: luci-app-telegrambot
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1286
+Installed-Size: 1287
 Filename: luci-app-telegrambot_0.1.0-3_all.ipk
-Size: 2117
-SHA256sum: fc65a6e281cfb30e3e65e3819bab9da2fa847c9a5acd8a3616e1198ffa2aaa78
+Size: 2118
+SHA256sum: 3fdc2fd269edafd51a4696f10bea093d7b5b75927da9848d731aef9a4dbad0db
 Description:  TelegramBot simple webUI
 
 Package: luci-app-tinyfm
@@ -906,13 +890,13 @@ Depends: libc, php8, php8-cgi, php8-mod-session, php8-mod-ctype, php8-mod-filein
 Source: feeds/jell/luci-app-tinyfm
 SourceName: luci-app-tinyfm
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1826837
+Installed-Size: 1826861
 Filename: luci-app-tinyfm_2.6_all.ipk
-Size: 1735319
-SHA256sum: 5fe47722c671f861cef190d6439847a54c8fafc745171f85912726566219a18f
+Size: 1735208
+SHA256sum: 01b002b378281473d2eabfd14922a3e40ab367f0897953112b5d01a4c35b2a4c
 Description:  This is Tiny File Manager, but for LuCI OpenWrt.
 
 Package: luci-app-ttl
@@ -922,13 +906,13 @@ Source: feeds/jell/luci-app-ttl
 SourceName: luci-app-ttl
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3107
 Filename: luci-app-ttl_0.0.3-0_all.ipk
-Size: 4001
-SHA256sum: 9650d6624a4a2d24e8b96dac78b5155b2c6328ca095543e798431a83f429bd0d
+Size: 3997
+SHA256sum: f104e062cff8fb0ee10d13a96979efcf4737ecc7f125cfce4e2893d867e8df96
 Description:  Antitethering module for luci-app-firewall
 
 Package: luci-app-xderm
@@ -937,13 +921,13 @@ Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, htt
 Source: feeds/jell/luci-app-xderm
 SourceName: luci-app-xderm
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 673
+Installed-Size: 674
 Filename: luci-app-xderm_1.5_all.ipk
-Size: 2097
-SHA256sum: 74bb2e7b33e761fb5a146b5fae4bab0c0a72eba5b279a9a155a5b480b8b7a70e
+Size: 2096
+SHA256sum: 0c2b326e39cad5f3888d4ee560592497b31fd0c528ffd30585a9056f41d2065f
 Description:  LuCI version of Xderm Mini GUI, with many additions.
 
 Package: luci-app-zerotier
@@ -952,43 +936,43 @@ Depends: libc, zerotier, luci-lua-runtime
 Source: feeds/jell/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4663
+Installed-Size: 4669
 Filename: luci-app-zerotier_1.0_all.ipk
-Size: 5505
-SHA256sum: daf6adec68484e220d697424e08b996e5c5f2c731ddcde6b64b061ca155b3002
+Size: 5502
+SHA256sum: 4ea9517259341ed3385c5f4031610716483c969b8b275c959c395e30e1379ba4
 Description:  LuCI for Zerotier
 
 Package: luci-proto-fm350
-Version: git-25.109.45047-dacf1ea
+Version: git-25.126.04521-3bd0fcd
 Depends: libc, fm350-modem
 Source: feeds/jell/luci-proto-fm350
 SourceName: luci-proto-fm350
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1349
-Filename: luci-proto-fm350_git-25.109.45047-dacf1ea_all.ipk
-Size: 2172
-SHA256sum: 850a434b45236fc307f3bf3ca14707430b2e22ba60a12b08b9c20b64eabf8f97
+Installed-Size: 1421
+Filename: luci-proto-fm350_git-25.126.04521-3bd0fcd_all.ipk
+Size: 2245
+SHA256sum: a6e3dc98b62a8f4852d25a9fa3b3b801f0430f298594bf8bc65bf25fae6c8428
 Description:  Support for Fibocom FM350
 
 Package: luci-proto-xmm
-Version: git-25.109.45047-dacf1ea
+Version: git-25.126.04521-3bd0fcd
 Depends: libc, xmm-modem
 Source: feeds/jell/luci-proto-xmm
 SourceName: luci-proto-xmm
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1423
-Filename: luci-proto-xmm_git-25.109.45047-dacf1ea_all.ipk
-Size: 2240
-SHA256sum: aeda03f468076095d461bd1f1c5012b0a83582187ecdeb8e40df67a7d51c1c16
+Installed-Size: 1426
+Filename: luci-proto-xmm_git-25.126.04521-3bd0fcd_all.ipk
+Size: 2239
+SHA256sum: 4c6e52416c922f873fd6e03f4fc63723a3cf328164126dd715855aa09b6f1138
 Description:  Support for Intel XMM
 
 Package: luci-theme-alpha
@@ -997,12 +981,12 @@ Depends: libc
 Source: feeds/jell/luci-theme-alpha
 SourceName: luci-theme-alpha
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: all
-Installed-Size: 2789919
+Installed-Size: 2789924
 Filename: luci-theme-alpha_3.9.4-beta-9_all.ipk
-Size: 2790944
-SHA256sum: 1f906759143a1fbb02c090d2db2e624372b7a28507c612f03dc46ddd0e7b1840
+Size: 2790965
+SHA256sum: c5ef60e505a9c30184d3de790d906c938331af305986469fdb75f74d833933fb
 Description:  LuCi Theme For OpenWrt And Alpha OS ONLY - Alpha
 
 Package: luci-theme-argon
@@ -1011,45 +995,45 @@ Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: feeds/jell/luci-theme-argon
 SourceName: luci-theme-argon
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 390300
+Installed-Size: 390297
 Filename: luci-theme-argon_2.3.1_all.ipk
-Size: 390932
-SHA256sum: c90f3d4560eec344b84dc8241d4a7738c4e271a5361c5b1adbf055de08c08636
+Size: 390945
+SHA256sum: ec47f0c813c153c22a64e6bb54220718aff4fd7b67c3aa52a87b895f5baf07d6
 Description:  Argon Theme
 
 Package: luci-theme-lightblue
-Version: git-25.109.45047-dacf1ea
+Version: git-25.126.04521-3bd0fcd
 Depends: libc, luci-lua-runtime
 Source: feeds/jell/luci-theme-lightblue
 SourceName: luci-theme-lightblue
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 77818
-Filename: luci-theme-lightblue_git-25.109.45047-dacf1ea_all.ipk
-Size: 78725
-SHA256sum: ec155f6382d5f5c07db901dc6cd7239d98325045899e133ef957ffc35972ce99
+Installed-Size: 77819
+Filename: luci-theme-lightblue_git-25.126.04521-3bd0fcd_all.ipk
+Size: 78729
+SHA256sum: e8a3b5c47f23d8b9cfb8dc7a6c2a5c7354e6e1caef3ab5bc5f590595f857cc65
 Description:  Bootstrap lightblue Theme
 
 Package: luci-theme-teleofis
-Version: git-25.109.45047-dacf1ea
+Version: git-25.126.04521-3bd0fcd
 Depends: libc, luci-lua-runtime
 Source: feeds/jell/luci-theme-teleofis
 SourceName: luci-theme-teleofis
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 23402
-Filename: luci-theme-teleofis_git-25.109.45047-dacf1ea_all.ipk
-Size: 24273
-SHA256sum: 9220c3a0e1e14cd71ca002b21e82801c11318a288f2042d16e450257a5fa1649
+Installed-Size: 23406
+Filename: luci-theme-teleofis_git-25.126.04521-3bd0fcd_all.ipk
+Size: 24275
+SHA256sum: f35eaddada3ba8f6e645ea398d0fa7f7346153bcf88198bf2c3a03e08b880fa3
 Description:  Bootstrap Teleofis Theme
 
 Package: microsocks
@@ -1060,29 +1044,29 @@ SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: lean
 Architecture: i386_pentium4
-Installed-Size: 5363
+Installed-Size: 5368
 Filename: microsocks_1.0.4-1_i386_pentium4.ipk
-Size: 6142
-SHA256sum: 47a26d83b16743a2fe9371fe3490a76a4bfde15949e5b77add42750cbb98e8d3
+Size: 6155
+SHA256sum: 6c7f85b0f29f943817950cc6e284bec583457e0edbf7ca1179cdc2fd9034ed32
 Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
  through them, if for some reason SSH doesn't cut it for you.
 
 Package: modemband
-Version: 20240330
+Version: 20240421
 Depends: libc, sms-tool
 Source: feeds/jell/modemband
 SourceName: modemband
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: all
-Installed-Size: 6513
-Filename: modemband_20240330_all.ipk
-Size: 7234
-SHA256sum: 1512aada5564cb5337f26e3a12e14683c62b15d54975aa33dd9762dfe37ed799
+Installed-Size: 6518
+Filename: modemband_20240421_all.ipk
+Size: 7238
+SHA256sum: 013bf9114668180211d199475d14dcd5e9672e52d5aff52dcb99559f56a34157
 Description:  Setting LTE/5G bands for selected modems
 
 Package: modeminfo-qmi
@@ -1091,13 +1075,13 @@ Depends: libc, modeminfo, qmi-utils
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-qmi
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 2376
+Installed-Size: 2378
 Filename: modeminfo-qmi_0.4.0-10_all.ipk
-Size: 3095
-SHA256sum: fded468ecd174ebd2716e9794e289429b238d282c4aa2abc1d165d910d3f1ff1
+Size: 3099
+SHA256sum: 90948337c2cd966f5b9bcebb6cdc647924305c4857a8af986ef192b39f8f1915
 Description:  QMI addon for modeminfo
 
 Package: modeminfo-serial-dell
@@ -1106,13 +1090,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-dell
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1215
+Installed-Size: 1222
 Filename: modeminfo-serial-dell_0.4.0-10_all.ipk
-Size: 1978
-SHA256sum: 4331039c0374f84f5010541a0d053c518715226f43dd56181163812f3b74c9f9
+Size: 1982
+SHA256sum: c0df45edb7c4519200bf43a70dd8b135f2a819f785d996310f1dd8cd2589fb85
 Description:  Dell DW5821e serial addon for modeminfo
 
 Package: modeminfo-serial-fibocom
@@ -1121,13 +1105,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-fibocom
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1202
+Installed-Size: 1203
 Filename: modeminfo-serial-fibocom_0.4.0-10_all.ipk
-Size: 1983
-SHA256sum: 6fbc6c94881255de8091b0565cfaa3552dc7c26df33c86408cbd84ae8b0b6ba0
+Size: 1981
+SHA256sum: 572f9830f068fd758d721e35f788e705b10f857d5125c619f7fa003fb92a4b18
 Description:  FIBOCOM NL668/678 serial addon for modeminfo
 
 Package: modeminfo-serial-fm350
@@ -1136,13 +1120,13 @@ Depends: libc, modeminfo, kmod-usb-acm, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-fm350
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1422
+Installed-Size: 1324
 Filename: modeminfo-serial-fm350_0.4.0-10_all.ipk
-Size: 2188
-SHA256sum: 044e86ddaa1fd593406b3acd892fb1e6ac8fde07d32422b2a9d9dea42ad6ae87
+Size: 2099
+SHA256sum: eaf6a1851c6f0aa64b24142e0bb366c7e41ae017a59fbcdb56cf23ba38a0b370
 Description:  FIBOCOM FM350 serial addon for modeminfo
 
 Package: modeminfo-serial-gosun
@@ -1151,13 +1135,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-gosun
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 955
 Filename: modeminfo-serial-gosun_0.4.0-10_all.ipk
-Size: 1712
-SHA256sum: 5546e50738c0d5586bb1df113f9dea045c7e93eb0d7b744e6f3d029a33cc6cf5
+Size: 1716
+SHA256sum: 6528083fa6a4f4344831055920e3750a32f4a24b6e9668178b708eb0ec23e79d
 Description:  Gosuncnwelink GM510 serial addon for modeminfo
 
 Package: modeminfo-serial-huawei
@@ -1166,13 +1150,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-huawei
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1318
+Installed-Size: 1319
 Filename: modeminfo-serial-huawei_0.4.0-10_all.ipk
 Size: 2086
-SHA256sum: 4041ea1039c0e0712ff9c9c6bbd48024ab95c5b9dc60f6764e304754698cc632
+SHA256sum: 4862ab4597bea46f88a2efcf3b8d07152c5f635a47a5921aa4177e81deb7a967
 Description:  HUAWEI serial addon for modeminfo
 
 Package: modeminfo-serial-meig
@@ -1181,13 +1165,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-meig
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1259
+Installed-Size: 1258
 Filename: modeminfo-serial-meig_0.4.0-10_all.ipk
-Size: 2030
-SHA256sum: 8b974a016725004b3c1f483b0aec9dda41bbdb1fda9ca38367ae244c7e4499f7
+Size: 2037
+SHA256sum: be38f59ad4d80e8eaa8e341a5117c3eeb545958ade4fb918253e25915e76a80e
 Description:  MEIGLink SLM750-R2/SLM820/SLM828 serial addon for modeminfo
 
 Package: modeminfo-serial-mikrotik
@@ -1196,13 +1180,13 @@ Depends: libc, modeminfo, kmod-usb-acm, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-mikrotik
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1429
+Installed-Size: 1427
 Filename: modeminfo-serial-mikrotik_0.4.0-10_all.ipk
-Size: 2202
-SHA256sum: d9b61d6dcb3e2c45b94948d6610865d689c7997b17b92b1797c39fc99ea6d162
+Size: 2200
+SHA256sum: d398184c1e7208bdce0e35427e2e39c0979f9138accea444c2d7d2bd19d0fc37
 Description:  MikroTik R11e-LTE/R11e-LTE6 serial addon for modeminfo
 
 Package: modeminfo-serial-quectel
@@ -1211,13 +1195,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-quectel
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 1359
 Filename: modeminfo-serial-quectel_0.4.0-10_all.ipk
-Size: 2123
-SHA256sum: 9916a2de16cb5cc1f3209ce7069f690c4069fb2495e94b9d26dd57a3b9d945fc
+Size: 2127
+SHA256sum: 7c5d448ee28baef86ecfd5c033d5f3461b8fa97c523fd3b80cdc1c16801fc387
 Description:  QUECTEL serial addon for modeminfo
 
 Package: modeminfo-serial-sierra
@@ -1226,13 +1210,13 @@ Depends: libc, modeminfo, kmod-usb-serial-qualcomm, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-sierra
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1197
+Installed-Size: 1195
 Filename: modeminfo-serial-sierra_0.4.0-10_all.ipk
-Size: 1959
-SHA256sum: 672b3dc552932bb25c3ecb4caa70dd46164d8e1d6ab1fdfad7c778d2c086130a
+Size: 1962
+SHA256sum: b6a8a0806dc3c9fb17acd7ed6d57dbaa176c52fb2f78588b75d5ecbf42cccebd
 Description:  Sierra Wireless EM7455 serial addon for modeminfo
 
 Package: modeminfo-serial-simcom-a7xxx
@@ -1241,13 +1225,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-simcom-a7xxx
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 1151
 Filename: modeminfo-serial-simcom-a7xxx_0.4.0-10_all.ipk
-Size: 1929
-SHA256sum: b4bfc96acd9a3d73057e0573fb8770b87348a8ba52f71d44a505f796f1eae3c0
+Size: 1926
+SHA256sum: 9608f97a32bc54b0f588ad27375a631fdd07012c100e4df50e921fbb5e2c9a86
 Description:  SIMCOM A7600/A7906 serial addon for modeminfo
 
 Package: modeminfo-serial-simcom
@@ -1256,13 +1240,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-simcom
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1229
+Installed-Size: 1230
 Filename: modeminfo-serial-simcom_0.4.0-10_all.ipk
-Size: 2004
-SHA256sum: 62836d292788cc5eadc6e47be7b81601c1c4d09869997da18fbd8e0e95a89d8e
+Size: 2007
+SHA256sum: 274b8da5444dee09408f26056303914a5026878b93029cdbec1eb6d078c2daaf
 Description:  SIMCOM SIM7600/SIM7906/SIM7912 serial addon for modeminfo
 
 Package: modeminfo-serial-styx
@@ -1271,13 +1255,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-styx
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 929
+Installed-Size: 930
 Filename: modeminfo-serial-styx_0.4.0-10_all.ipk
-Size: 1692
-SHA256sum: 2eafc21a6f5f6e68f054c3c573ea157f3118d010b48be9756cea80a96b1c12a4
+Size: 1686
+SHA256sum: fa5c7a49fd81cf31bcaceb49e3bcda92c2bd6a903dd8eb625dbfa9d9782895e4
 Description:  STYX MG8224 serial addon for modeminfo
 
 Package: modeminfo-serial-telit
@@ -1286,13 +1270,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-telit
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 1134
 Filename: modeminfo-serial-telit_0.4.0-10_all.ipk
 Size: 1916
-SHA256sum: c1530c7848c89ebf6134cd0d66eec367e15629dcc264de1c915145ebefed6429
+SHA256sum: 740bf028783d8075bbf34645aa0068f3e0295ffe71d3ed6d09c64e041c30d5db
 Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
 
 Package: modeminfo-serial-tw
@@ -1301,13 +1285,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-tw
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 1010
 Filename: modeminfo-serial-tw_0.4.0-10_all.ipk
-Size: 1772
-SHA256sum: fb5d713c5bd5d1002a9ff24add4ac9684197186d9d38e7254e6af5d20910e992
+Size: 1774
+SHA256sum: e73f1b1f3045c4eeb442f0bfd09c9352b6a9bef9e95f5c253e58b58665671596
 Description:  ThinkWill ML7820+ serial addon for modeminfo
 
 Package: modeminfo-serial-xmm
@@ -1316,13 +1300,13 @@ Depends: libc, modeminfo, kmod-usb-acm, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-xmm
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1524
+Installed-Size: 1525
 Filename: modeminfo-serial-xmm_0.4.0-10_all.ipk
-Size: 2310
-SHA256sum: de6c81016f32499590a9ee9b987ff47a2d3fa1b50dab1610386305a3772c1043
+Size: 2312
+SHA256sum: a06b25af5b41aea30b2a0caca1f915fd6f891245e4a9def26d7a4446049a0bab
 Description:  FIBOCOM L850/L860 Intel XMM chips serial addon for modeminfo
 
 Package: modeminfo-serial-yuge
@@ -1331,13 +1315,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-yuge
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 950
+Installed-Size: 952
 Filename: modeminfo-serial-yuge_0.4.0-10_all.ipk
-Size: 1699
-SHA256sum: 73cd77272afdcf696df2ec2b6d470e1775e0370a8c27a467772d76b94c9fb282
+Size: 1710
+SHA256sum: 9bcf7225eb198b21fda2843aae575dc7db223a218c33192a9f617de00a95a55b
 Description:  Yuge CLM920 serial addon for modeminfo
 
 Package: modeminfo-serial-zte
@@ -1346,13 +1330,13 @@ Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-serial-zte
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 893
+Installed-Size: 896
 Filename: modeminfo-serial-zte_0.4.0-10_all.ipk
-Size: 1655
-SHA256sum: 44ed448278c343ffbb930d44fcb34f9f5167a64d594b89111770050c1fdad016
+Size: 1662
+SHA256sum: e92d45f1345d29020cfc5abf1904c587f5fe48ff4e575bf28065499254effb5e
 Description:  ZTE MF823/MF823D serial addon for modeminfo
 
 Package: modeminfo-telegram
@@ -1361,13 +1345,13 @@ Depends: libc, modeminfo, telegrambot
 Source: feeds/jell/modeminfo
 SourceName: modeminfo-telegram
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 953
+Installed-Size: 954
 Filename: modeminfo-telegram_0.4.0-10_all.ipk
-Size: 1684
-SHA256sum: 7c5908217b80d1546f98cb7e2492c48e9d5753f0ae4f0b3f4b43e98c601b0604
+Size: 1677
+SHA256sum: 411c1ae5eaeebea33bd2bdde77959ecd43d1098e832444389b1cf8bbc71bd4f2
 Description:  Plugin for telegrambot
 
 Package: modeminfo
@@ -1376,13 +1360,13 @@ Depends: libc, comgt
 Source: feeds/jell/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 4121
+Installed-Size: 4150
 Filename: modeminfo_0.4.0-10_all.ipk
-Size: 4861
-SHA256sum: 4662972a9f882d503efa90736d4f24c543ae02e1e3d9cd2183bafd370db69bd5
+Size: 4895
+SHA256sum: a021155cececebdec0f832a0096cd6a13a034451175dec6809c2c84229fed3a8
 Description:  Signal information for 3G/LTE dongle
 
 Package: mosdns
@@ -1392,13 +1376,13 @@ Source: feeds/jell/mosdns
 SourceName: mosdns
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 6134378
+Installed-Size: 6134383
 Filename: mosdns_5.3.1-1_i386_pentium4.ipk
-Size: 6122547
-SHA256sum: f08d5455b2e96803be20dc79fea9c9bd512b598983e655f3948f4826f9688640
+Size: 6122632
+SHA256sum: 50b9ff2fd2b7fbeb8f7a24ebff2ed6b1e0b21397b59f6562a55affa5b6a71d7b
 Description:  A plug-in DNS forwarder/splitter
 
 Package: mrtg
@@ -1407,12 +1391,12 @@ Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, 
 Source: feeds/jell/mrtg
 SourceName: mrtg
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 542133
+Installed-Size: 542101
 Filename: mrtg_2.17.10-1_i386_pentium4.ipk
-Size: 542685
-SHA256sum: 77c7cde6aae92d217a35b6b3c598045f1d8eae87a62c95d49f2a8162107fef47
+Size: 542562
+SHA256sum: 16cafd0474b7480e206a58e031d213ca64e32d53205ea7c021e4045ceaad9b87
 Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
  monitoring and measuring the traffic load on network links. It allows the
  user to see traffic load on a network over time in graphical form. It was
@@ -1428,13 +1412,13 @@ SourceName: nload
 License: LICENSE
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: i386_pentium4
-Installed-Size: 40922
+Installed-Size: 40926
 Filename: nload_0.7.4-1_i386_pentium4.ipk
-Size: 41877
-SHA256sum: 381f14c0fd97e85a326f86e84aff1c309863aee0d7b213697d9d4084cad7dd39
+Size: 41889
+SHA256sum: cd71dadf3a9a3b6c3f1d1ccbaf0ba2fb02eca021979262233299bb002735ae03
 Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
  It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
@@ -1444,13 +1428,13 @@ Depends: libc
 Source: feeds/jell/ookla-speedtest
 SourceName: ookla-speedtest
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: i386_pentium4
-Installed-Size: 1186164
+Installed-Size: 1186163
 Filename: ookla-speedtest_1.2.0-0_i386_pentium4.ipk
-Size: 1186943
-SHA256sum: ccd259866e37d1fc12a87e3f98877747278fd56316a87acc6070ca307cd7cb80
+Size: 1186973
+SHA256sum: b55c9f981f0c9c2e45b6495b4725747eaa9854503a8db3f7f844c5222887b079
 Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
  Built for software developers, system administrators and computer enthusiasts alike,
  Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
@@ -1461,13 +1445,13 @@ Depends: libc, openvpn
 Source: feeds/jell/openvpn-dns-hotplug
 SourceName: openvpn-dns-hotplug
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1060
+Installed-Size: 1062
 Filename: openvpn-dns-hotplug_0.0.1-2_all.ipk
-Size: 1821
-SHA256sum: 01d3853ac9ed3f43af2859b0f2b0c3082d13edcf1c8f38d47a27ad72307f4084
+Size: 1822
+SHA256sum: 5da3fdf4008d36977bd8adc663c117e64df9be581774511da7cee92816cb6480
 Description:  Hotplug script to get NS attribytes: DNS and domain search.
 
 Package: pdnsd-alt
@@ -1476,12 +1460,12 @@ Depends: libc, libpthread
 Source: feeds/jell/pdnsd-alt
 SourceName: pdnsd-alt
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 85071
+Installed-Size: 85077
 Filename: pdnsd-alt_1.2.9b-par-3_i386_pentium4.ipk
-Size: 86029
-SHA256sum: 61db10065525d383993aa07bdb91e90d39f77913010790602ede6d4a2f1e46ab
+Size: 86037
+SHA256sum: 43811cfe29bf34564436d69e694ad8093e393b2ba9a636d407094bf3a8896180
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -1496,12 +1480,12 @@ Depends: libc
 Source: feeds/jell/pingcontrol
 SourceName: pingcontrol
 Section: utils
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: all
 Installed-Size: 1615
 Filename: pingcontrol_1-1_all.ipk
-Size: 2344
-SHA256sum: eb0b0257c6ff05c4b6c1e15247cbe6e4af749ccec8c59cfa48781d27c35b0b01
+Size: 2340
+SHA256sum: df97f03664b65676101a341ecc3fa110a338b60bfb14bb4ee87267ce0a9f3026
 Description:  This package contains a utility for managing the interface using ping requests.
 
 Package: qtools
@@ -1512,13 +1496,13 @@ SourceName: qtools
 License: LICENSE
 LicenseFiles: COPYING
 Section: telephony
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: i386_pentium4
-Installed-Size: 118270
+Installed-Size: 118330
 Filename: qtools_0.0.1-0~cross_i386_pentium4.ipk
-Size: 118510
-SHA256sum: a2a5df852380e09e251858a5f52166fa8f8e0b48f254c1d7a8906fed7cbcadb0
+Size: 118594
+SHA256sum: 18f55d4cede0f3604de39861bbdc3e3b75a43688c84bc6d5083333d94d6374c6
 Description:  A set of tools for working with flash modems based on the Qualcom chipset The set consists of a package of utilities and a set of patched loaders.
 
 Package: redsocks2
@@ -1528,13 +1512,13 @@ Source: feeds/jell/redsocks2
 SourceName: redsocks2
 License: Apache-2.0
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: semigodking <semigodking@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 52437
+Installed-Size: 52439
 Filename: redsocks2_release-test4-1_i386_pentium4.ipk
-Size: 53342
-SHA256sum: 2f0576e505b6c38eff9d4ab6c4924f8e786788b2c98074b9bb91a4c0a6f89023
+Size: 53338
+SHA256sum: e4d4e91550e7687aacc8099438efdcebcc8b623d6b60d970c16fc77b19ca44a0
 Description:  This is a modified version of original redsocks.
  Transparent redirector of any TCP/UDP connection to proxy.
 
@@ -1544,98 +1528,98 @@ Depends: libc, umdns
 Source: feeds/jell/rrm-nr-distributor
 SourceName: rrm-nr-distributor
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1912
+Installed-Size: 1913
 Filename: rrm-nr-distributor_0.0.1-1_all.ipk
-Size: 2630
-SHA256sum: d8d4c91fdde4e95da374c20bf86d54b8958e118da30a3d6bea1a2086e06bd825
+Size: 2634
+SHA256sum: 9c7c87012a6818ac49c1042b3f6ed4d2c3945464e06ce16935008f87f03fba03
 Description:  802.11k Neighbor Report distributor daemon
 
 Package: shadowsocks-rust-sslocal
-Version: 1.18.2-1
+Version: 1.18.3-1
 Depends: libc
 Source: feeds/jell/shadowsocks-rust
 SourceName: shadowsocks-rust-sslocal
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 3289173
-Filename: shadowsocks-rust-sslocal_1.18.2-1_i386_pentium4.ipk
-Size: 3273099
-SHA256sum: ca464129fc37ffc7ed4124cd8f997e5c18a5e965c559542cc109965c43378350
+Installed-Size: 3297140
+Filename: shadowsocks-rust-sslocal_1.18.3-1_i386_pentium4.ipk
+Size: 3286433
+SHA256sum: 784269e13db7222fb1bdc93f7834a5fe4abf07be3a2412df056e60f5a31a3184
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.18.2-1
+Version: 1.18.3-1
 Depends: libc
 Source: feeds/jell/shadowsocks-rust
 SourceName: shadowsocks-rust-ssmanager
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 2648832
-Filename: shadowsocks-rust-ssmanager_1.18.2-1_i386_pentium4.ipk
-Size: 2635897
-SHA256sum: d70a99891653783d27be9a3baaa9904efe964e69b6af25b7bfd40ee6718ea6ea
+Installed-Size: 2655471
+Filename: shadowsocks-rust-ssmanager_1.18.3-1_i386_pentium4.ipk
+Size: 2645559
+SHA256sum: d33585efe91ce2eef2095d6e66f068f562558f705ccb5af4a2fcb4c71edf0dd6
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.18.2-1
+Version: 1.18.3-1
 Depends: libc
 Source: feeds/jell/shadowsocks-rust
 SourceName: shadowsocks-rust-ssserver
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 2564680
-Filename: shadowsocks-rust-ssserver_1.18.2-1_i386_pentium4.ipk
-Size: 2551104
-SHA256sum: 708bda71894fdec54bf915aa5c718036bf49f5e244345ebc8c8b08d973498b5f
+Installed-Size: 2567472
+Filename: shadowsocks-rust-ssserver_1.18.3-1_i386_pentium4.ipk
+Size: 2559265
+SHA256sum: ad57833fa13cea3390c66a2c68efa726da546d4d4676db61383c46fcc3768a34
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.18.2-1
+Version: 1.18.3-1
 Depends: libc
 Source: feeds/jell/shadowsocks-rust
 SourceName: shadowsocks-rust-ssservice
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 3603200
-Filename: shadowsocks-rust-ssservice_1.18.2-1_i386_pentium4.ipk
-Size: 3586929
-SHA256sum: e1ae1ab79d45632e77bf99c86bc2cf39336b2baa533acad5370018165e8788ed
+Installed-Size: 3617339
+Filename: shadowsocks-rust-ssservice_1.18.3-1_i386_pentium4.ipk
+Size: 3606344
+SHA256sum: cb12584f82b7acb2c4e5bb8ca89d8154815fb23c5420829c6a73c3459a8c0f39
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.18.2-1
+Version: 1.18.3-1
 Depends: libc
 Source: feeds/jell/shadowsocks-rust
 SourceName: shadowsocks-rust-ssurl
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 1242924
-Filename: shadowsocks-rust-ssurl_1.18.2-1_i386_pentium4.ipk
-Size: 1230901
-SHA256sum: 1d8c7e3071a46e134556348bb91b9381082c85c859e958113ca461b0cacea69a
+Installed-Size: 1239043
+Filename: shadowsocks-rust-ssurl_1.18.3-1_i386_pentium4.ipk
+Size: 1231099
+SHA256sum: 9a8495ef3e4d3989294c878b9e4b0ed96a60a46691947654559f24ed27f856b0
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -1646,12 +1630,12 @@ SourceName: shadowsocksr-libev-ssr-check
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 2291
+Installed-Size: 2293
 Filename: shadowsocksr-libev-ssr-check_2.5.3-1_i386_pentium4.ipk
-Size: 3030
-SHA256sum: 67fd043d1db8c9ee4d126b937143919f3af11ba575d59ee96e6941318a7f756d
+Size: 3035
+SHA256sum: ef50bfff11148d6be82f3a5905abcfccd044e795510625c2a74820dbd6a0ca21
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
@@ -1662,12 +1646,12 @@ SourceName: shadowsocksr-libev-ssr-local
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 56084
+Installed-Size: 56085
 Filename: shadowsocksr-libev-ssr-local_2.5.3-1_i386_pentium4.ipk
-Size: 56874
-SHA256sum: 0ab47bb865ce12386f98a3811d8ef215b55ed9ea124fd8ef07474a23467ef031
+Size: 56875
+SHA256sum: 4b064f61ba81e234eefd364e6104e4132c792d07721fca2bc6bea6b59de44267
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-nat
@@ -1678,12 +1662,12 @@ SourceName: shadowsocksr-libev-ssr-nat
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 2228
+Installed-Size: 2229
 Filename: shadowsocksr-libev-ssr-nat_2.5.3-1_i386_pentium4.ipk
-Size: 2986
-SHA256sum: e7886f20832967bee64a49b3570aad3f866d01066d980c9e2e86dcf7659674c5
+Size: 2987
+SHA256sum: 035bcb271f002fef10077fbdc4cf72f566f395b8521ed1f5ef8bacf41b334532
 Description:  shadowsocksr-libev ssr-nat
 
 Package: shadowsocksr-libev-ssr-redir
@@ -1694,12 +1678,12 @@ SourceName: shadowsocksr-libev-ssr-redir
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 50110
+Installed-Size: 50114
 Filename: shadowsocksr-libev-ssr-redir_2.5.3-1_i386_pentium4.ipk
-Size: 50969
-SHA256sum: 4836acd530b03e41e8222f68a939217ca2186c0ace55775edc32c1b1087aa7c5
+Size: 50976
+SHA256sum: aaeba98c60c35d2ff734f3bb404e6eb4daea82da40fbc6960157d0c689a6e207
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
@@ -1710,12 +1694,12 @@ SourceName: shadowsocksr-libev-ssr-server
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
 Installed-Size: 57708
 Filename: shadowsocksr-libev-ssr-server_2.5.3-1_i386_pentium4.ipk
-Size: 58540
-SHA256sum: 9a4e3796fd3339646b7528ba29143b15d843176281c101468f094d57f2ab7054
+Size: 58557
+SHA256sum: 55b7767ad36b0f42abc1f4e683cae26e25ceffd5d59f02879057fcaaad884a46
 Description:  shadowsocksr-libev ssr-server
 
 Package: shc
@@ -1724,13 +1708,13 @@ Depends: libc
 Source: feeds/jell/shc
 SourceName: shc
 Section: utils
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Bandung, ONIVERSAL <friyadhibiermann>, indonesian
 Architecture: i386_pentium4
-Installed-Size: 11008
+Installed-Size: 11011
 Filename: shc_3.8.9b_i386_pentium4.ipk
-Size: 11755
-SHA256sum: fdc39fc18b7d96af91baec0fa7f999c60325ddf2a3e7823c266c7395954207bd
+Size: 11758
+SHA256sum: 783accd6b9859c9c2ae8ac9c65576df34e9af0c20ffb7b94ce4d18ffb225d1fb
 Description:  This tool generates a stripped binary executable version of the script specified at command line
 
 Package: simple-obfs-client
@@ -1742,13 +1726,13 @@ SourceName: simple-obfs-client
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: i386_pentium4
-Installed-Size: 27764
+Installed-Size: 27765
 Filename: simple-obfs-client_0.0.5-1_i386_pentium4.ipk
-Size: 28550
-SHA256sum: 682d4fa3e26cfb51c8aa85cec943503865a787aa6b28ed766b17491cf796b7f9
+Size: 28557
+SHA256sum: bc62ff2a775c8112bbec797494ea35bf5774072920a269bbdf58b8537ee1396c
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs-server
@@ -1759,13 +1743,13 @@ SourceName: simple-obfs-server
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: i386_pentium4
-Installed-Size: 29424
+Installed-Size: 29425
 Filename: simple-obfs-server_0.0.5-1_i386_pentium4.ipk
-Size: 30233
-SHA256sum: 3fcf115666c6e7ce99a66628763e3f65ef5d59f17e19f40f58887dee33a56706
+Size: 30236
+SHA256sum: 9273639a29048160ee02dc69ab390397fad75b6c00e4148273a8df3c120895c3
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simpleproxy
@@ -1776,30 +1760,30 @@ SourceName: simpleproxy
 License: GPLv2
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: i386_pentium4
-Installed-Size: 9922
+Installed-Size: 9924
 Filename: simpleproxy_3.5_i386_pentium4.ipk
-Size: 10718
-SHA256sum: fa13607f7ad79fee94cb399a3772d8704fc77e7821a91349ae00a4ad230c7633
+Size: 10716
+SHA256sum: 13379d3e48f50cfed5367d4f61fe3e2bbc8a55b371a7f93f74a16ca98d76bb41
 Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
  TCP port and forward them to anoter port on a remote host via TCP.
 
 Package: sing-box
-Version: 1.8.11-1
+Version: 1.8.13-1
 Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
 Source: feeds/jell/sing-box
 SourceName: sing-box
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 9774729
-Filename: sing-box_1.8.11-1_i386_pentium4.ipk
-Size: 9753836
-SHA256sum: bd81f09adfa87de9c3c8cc3de77e4f6b6d57bdd41727c98a4e0417f4c877cde5
+Installed-Size: 9775453
+Filename: sing-box_1.8.13-1_i386_pentium4.ipk
+Size: 9755290
+SHA256sum: 9800939ef201fcddcd23126fbd4777dd8a6c3e01e7b9a1d95869a0afdfbe481e
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS,
  Shadowsocks, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
@@ -1809,12 +1793,12 @@ Depends: libc
 Source: feeds/jell/luci-app-3ginfo-lite/sms-tool
 SourceName: sms-tool
 Section: utils
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 7610
+Installed-Size: 7613
 Filename: sms-tool_2022-03-21-f07699ab-1_i386_pentium4.ipk
-Size: 8333
-SHA256sum: bb9e2a5deb76189e3b46ad4829c1f2aa05b803811615d5158ea47acb78d27685
+Size: 8345
+SHA256sum: b08f8854bf481a737e39e021b8697176f0290d0b747f1450f57bb3182cdaeb0a
 Description:  SMS Tool for 3G/4G modem
 
 Package: speedtestpp
@@ -1824,13 +1808,13 @@ Source: feeds/jell/speedtestpp
 SourceName: speedtestpp
 License: MIT
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlyakov@132lan.ru>
 Architecture: i386_pentium4
-Installed-Size: 26031
+Installed-Size: 26034
 Filename: speedtestpp_1.14-1_i386_pentium4.ipk
-Size: 26717
-SHA256sum: 23c22edac25dc853f0c9589cca2a063f2d6c8c19fcb4c32c2e0a9a21fdc8275d
+Size: 26713
+SHA256sum: 3a2348f907c0aa602a8b4bf404c172103f40159023c485356893eae9f2d9bb5a
 Description:  Yet another unofficial speedtest.net client cli interface
 
 Package: ssocks
@@ -1841,13 +1825,13 @@ SourceName: ssocks
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 13255
+Installed-Size: 13258
 Filename: ssocks_0.0.14-3_i386_pentium4.ipk
-Size: 14102
-SHA256sum: 187a249d0c27160b5677af20ce580593add9c081e914ccf995ed761d2e8377b3
+Size: 14101
+SHA256sum: cc1fc4dd2679f676d4f7ce20927949bb799fa0fd3590896d8806485c00485f32
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
@@ -1860,13 +1844,13 @@ SourceName: ssocksd
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 13386
+Installed-Size: 13390
 Filename: ssocksd_0.0.14-3_i386_pentium4.ipk
-Size: 14222
-SHA256sum: c1b11bdec902064938c61f3afc178b875247fbd89a13b51ba987801585e92f22
+Size: 14227
+SHA256sum: 868430d642963e643a0c7f16de5c14413f9b421387e7f982d159ffadb2fe05f7
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
@@ -1878,12 +1862,12 @@ Source: feeds/jell/tcping
 SourceName: tcping
 License: GPL-2.0-only
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Architecture: i386_pentium4
-Installed-Size: 3265
+Installed-Size: 3268
 Filename: tcping_0.3-1_i386_pentium4.ipk
-Size: 3980
-SHA256sum: e255a01dec8b345c01f1b37d5870a241192183068b886872d301d99454bc9670
+Size: 3978
+SHA256sum: 6b291d553bb1ec3b5ffce2db77c54be9ea70b20839d7cf1bdb9631e90e3e96dd
 Description:  tcping measures the latency of a tcp-connection
 
 Package: telegrambot
@@ -1892,13 +1876,13 @@ Depends: libc, curl
 Source: feeds/jell/telegrambot
 SourceName: telegrambot
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 5637
+Installed-Size: 5638
 Filename: telegrambot_0.0.4-3_all.ipk
-Size: 6402
-SHA256sum: d728f0462eea0ec81cbb9eaeee08a9b43db6a06cc3d1f349d6bd3b7962efc3b5
+Size: 6411
+SHA256sum: 9d50330cdb42a0178527bf0d0005a9472afa04cb2cc0c998345f5db685c70115
 Description:  Telegram bot for router with firmware Lede/Openwrt.
 
 Package: totd
@@ -1909,13 +1893,13 @@ SourceName: totd
 License: LICENSE
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: i386_pentium4
-Installed-Size: 30857
+Installed-Size: 30859
 Filename: totd_1.5.3-1_i386_pentium4.ipk
-Size: 31713
-SHA256sum: 40b5f48250417cf6e6e394e5094afa4a47fb643d50ce537109c49c52b0fda3d7
+Size: 31719
+SHA256sum: 050b5bbd3bd5b6b8ba6e2fb47f620f31c461a0f19a2c17edd1a6e68ccbcb7b44
 Description:  Totd is a small DNS64 proxy nameserver that supports IPv6 only hosts/networks
  that communicate with the IPv4 world using some translation mechanism. 
 
@@ -1927,13 +1911,13 @@ SourceName: trojan-go
 License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 5170343
+Installed-Size: 5170409
 Filename: trojan-go_0.10.6-1_i386_pentium4.ipk
-Size: 5161244
-SHA256sum: eb313c971137d32ee9d4795e105c2a7afa40be40cbe194ae8f88c3611ec097e7
+Size: 5161595
+SHA256sum: df3085b8a7ea78812e18c745c7fcb7e9ad6a0e6c3c2253dcc67cd7c92d53b165
 Description:  Trojan features multiple protocols over TLS to avoid both
  active/passive detections and ISP QoS limitations.
 
@@ -1944,13 +1928,13 @@ Source: feeds/jell/trojan-plus
 SourceName: trojan-plus
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Trojan-Plus-Group
 Architecture: i386_pentium4
 Installed-Size: 397440
 Filename: trojan-plus_10.0.3-3_i386_pentium4.ipk
-Size: 398366
-SHA256sum: 1086e70de166f705fa129089b5cc05daf2f9f1ccba652a88753185b2ca7a534f
+Size: 398351
+SHA256sum: be7b750b34b3d7567d62b523f6ad6ad5c732c23178c6c54d6bb231ea0f73bb0a
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan
@@ -1960,13 +1944,13 @@ Source: feeds/jell/trojan
 SourceName: trojan
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: GreaterFire
 Architecture: i386_pentium4
-Installed-Size: 286695
+Installed-Size: 286700
 Filename: trojan_1.16.0-2_i386_pentium4.ipk
-Size: 287552
-SHA256sum: 427e2d7d8126b29526d659a32f37d58e0528bcca42026c36893ea3885e46aa64
+Size: 287566
+SHA256sum: 3da973e710e9d82e114dcfcd34f5a9d84efa2507761485392304cbf7c25cd6d7
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: ttymux
@@ -1976,13 +1960,13 @@ Source: feeds/jell/ttymux
 SourceName: ttymux
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstatnine Shevlakov <shevlakov@132lan.ru>
 Architecture: i386_pentium4
 Installed-Size: 4396
 Filename: ttymux_1_i386_pentium4.ipk
-Size: 5153
-SHA256sum: 6f19583cea51e155f04929d7c0c34646d8395e1c2ffe8fe5176f028be1c06328
+Size: 5164
+SHA256sum: 7951ef72a73a6a41f485de3fe155a3f4f51391477b5ddd628d2c6deb4a4cc90e
 Description:  Is a serial multiplexer and demultiplexer protocol for Linux and a microcontroller.
 
 Package: tuic-client
@@ -1992,13 +1976,13 @@ Source: feeds/jell/tuic-client
 SourceName: tuic-client
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 1117152
+Installed-Size: 1117156
 Filename: tuic-client_1.0.0-1_i386_pentium4.ipk
-Size: 1117856
-SHA256sum: a49a03649207067496195b338ae8db2f2f688f624d1c5718f730f98ec75a431e
+Size: 1117868
+SHA256sum: b7c4b5f9939d3990e0d7043738bcb36e6ad39b1fc3e52872bff7bba187bca742
 Description:  Delicately-TUICed 0-RTT proxy protocol
 
 Package: v2dat
@@ -2008,72 +1992,72 @@ Source: feeds/jell/v2dat
 SourceName: v2dat
 License: GPL-3.0
 Section: utils
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: i386_pentium4
-Installed-Size: 2795296
+Installed-Size: 2795683
 Filename: v2dat_2022-12-15-47b8ee51-1_i386_pentium4.ipk
-Size: 2789597
-SHA256sum: fb27432226e69ae420b6999df31d893e012c1aade67581ab62850ae4aa4ad864
+Size: 2790009
+SHA256sum: b8ef6a7ee84948f863de08834cc47a3be69a0f49d78d4370050124c3a3f263b9
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-core
-Version: 5.15.3-1
+Version: 5.16.1-1
 Depends: libc, ca-bundle
 Source: feeds/jell/v2ray-core
 SourceName: v2ray-core
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 11066262
-Filename: v2ray-core_5.15.3-1_i386_pentium4.ipk
-Size: 11036228
-SHA256sum: bc7e1f6ecc5b9d4eedbff25ed90d0333be57deff3dd0e8a055afe3bc5d8ab736
+Installed-Size: 11074792
+Filename: v2ray-core_5.16.1-1_i386_pentium4.ipk
+Size: 11045373
+SHA256sum: 9010159a0477ebdcf9abca0f342a29060deec116845951921c7be22b9b87f557
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
 Package: v2ray-extra
-Version: 5.15.3-1
+Version: 5.16.1-1
 Depends: libc, v2ray-core
 Source: feeds/jell/v2ray-core
 SourceName: v2ray-extra
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 298633
-Filename: v2ray-extra_5.15.3-1_all.ipk
-Size: 299337
-SHA256sum: a742a3765d15e6eda559f604a7e605310aaaaf9fc4d3e3f501c5eb18b490e2ca
+Installed-Size: 298635
+Filename: v2ray-extra_5.16.1-1_all.ipk
+Size: 299359
+SHA256sum: a1a15b74f456045117ebde6bcfbc652a40e6eda54307395fce1f7f9a9ae90f47
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
  
  This includes extra resources for v2ray-core.
 
 Package: v2ray-geoip
-Version: 202404180039-1
+Version: 202405020039-1
 Depends: libc
 Source: feeds/jell/v2ray-geodata
 SourceName: v2ray-geoip
 License: CC-BY-SA-4.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 2605827
-Filename: v2ray-geoip_202404180039-1_all.ipk
-Size: 2398744
-SHA256sum: 452ea23fe5a8acc67a5c99120bf80aba1f0a2ae5b2b6f897553e03e66d386535
+Installed-Size: 2661367
+Filename: v2ray-geoip_202405020039-1_all.ipk
+Size: 2442079
+SHA256sum: 745c63bec14800ad9bd45e790f91d8a30a6c216323330e8ffb5300901e5246c8
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite-ir
-Version: 202404150255-1
+Version: 202404290026-1
 Depends: libc
 Provides: xray-geosite-ir
 Source: feeds/jell/v2ray-geodata
@@ -2081,30 +2065,30 @@ SourceName: v2ray-geosite-ir
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1020252
-Filename: v2ray-geosite-ir_202404150255-1_all.ipk
-Size: 1021279
-SHA256sum: 49fd069205778d271cb2877f1d7c39716a8a3f96cfb918f2a6b5c2f29067e298
+Installed-Size: 1020396
+Filename: v2ray-geosite-ir_202404290026-1_all.ipk
+Size: 1021420
+SHA256sum: a5d07f75f7ae77eb311544c5f2d343384e0333242dfacb3a4bf68a9568354e79
 Description:  Iran Geosite List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240416175239-1
+Version: 20240505132300-1
 Depends: libc
 Source: feeds/jell/v2ray-geodata
 SourceName: v2ray-geosite
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 492477
-Filename: v2ray-geosite_20240416175239-1_all.ipk
-Size: 492475
-SHA256sum: b9c8e3a64d87ff4cb7f1c6b184b723ef8b55be4e59394ddf40fb0772264c2d54
+Installed-Size: 507422
+Filename: v2ray-geosite_20240505132300-1_all.ipk
+Size: 507287
+SHA256sum: dae2d5b734b3dfd75a8259b093d5dedf23fd95212a5fc47708afb664e5853876
 Description:  Geosite List for V2Ray
 
 Package: v2ray-plugin
@@ -2115,13 +2099,13 @@ SourceName: v2ray-plugin
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: madeye <max.c.lv@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 4940892
+Installed-Size: 4940899
 Filename: v2ray-plugin_5.15.1-1_i386_pentium4.ipk
-Size: 4931801
-SHA256sum: e4a603539504e40923e084b3635dee8b45fe7a91d548c3de2a124a3bf19e0b83
+Size: 4931676
+SHA256sum: e8a379696c41225ad7fa6f87b531889f6745aebf63eac2b7aaa38a3bb2367c6e
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: v2raya
@@ -2132,63 +2116,63 @@ SourceName: v2raya
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 10759979
+Installed-Size: 10759903
 Filename: v2raya_2.2.5.1-1_i386_pentium4.ipk
-Size: 10741400
-SHA256sum: e69a9b1863dd5aabdeaf3cc8b35148e09d9d8f4f68cc16fb2de6c9973904ec99
+Size: 10740499
+SHA256sum: 74160f582e59575aa165d130f497a304e79ff3c64ccefd7b05c8bec258244911
 Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
  compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 
 Package: xmm-modem
-Version: 0.1.2-0
+Version: 0.1.2-1
 Depends: libc, comgt, kmod-usb-acm, kmod-usb-net-cdc-ncm
 Source: feeds/jell/xmm-modem
 SourceName: xmm-modem
 Section: opt
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 2410
-Filename: xmm-modem_0.1.2-0_all.ipk
-Size: 3197
-SHA256sum: 4c0fcfa73d961d656a1d3209ad733ca1b29e87d271b7c3f747e9da02a55220fd
+Installed-Size: 2455
+Filename: xmm-modem_0.1.2-1_all.ipk
+Size: 3243
+SHA256sum: becb574b8e9d076b95bfb811c0df04dd54ea7f7da4128f8938acb8d21c3a88d1
 Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 
 Package: xray-core
-Version: 1.8.10-1
+Version: 1.8.11-1
 Depends: libc, ca-bundle
 Source: feeds/jell/xray-core
 SourceName: xray-core
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 9723113
-Filename: xray-core_1.8.10-1_i386_pentium4.ipk
-Size: 9702266
-SHA256sum: 0f945ca16c701e2eb54d57dbe7dc644aa89072548597874f9337ba5982533d95
+Installed-Size: 9753360
+Filename: xray-core_1.8.11-1_i386_pentium4.ipk
+Size: 9731956
+SHA256sum: 378f4dbeed9e72b47f8a0835c3afc11a504441627abba2f669e2f5f855bdb4b1
 Description:  Xray, Penetrates Everything. It helps you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
 Package: xray-plugin
-Version: 1.8.10-1
+Version: 1.8.11-1
 Depends: libc, ca-bundle
 Source: feeds/jell/xray-plugin
 SourceName: xray-plugin
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1713529847
+SourceDateEpoch: 1714958121
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 6468681
-Filename: xray-plugin_1.8.10-1_i386_pentium4.ipk
-Size: 6454569
-SHA256sum: d4ff6b829c92cf902053ac6cd67095ebe229e1b4b2b8df54572ea6a6d2267514
+Installed-Size: 6422761
+Filename: xray-plugin_1.8.11-1_i386_pentium4.ipk
+Size: 6408955
+SHA256sum: 95a7d5810eb83a320833003255d35d083ad66ce702c83ce4565b033a032c1663
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 
